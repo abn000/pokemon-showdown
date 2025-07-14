@@ -5601,7 +5601,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: { breakable: 1 },
 		name: "Mountaineer",
 		rating: 3,
-		num: -1,
+		num: -2,
 	},
 	rebound: {
 		isNonstandard: "CAP",
@@ -5634,7 +5634,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: { breakable: 1 },
 		name: "Rebound",
 		rating: 3,
-		num: -2,
+		num: -3,
 	},
 	persistent: {
 		isNonstandard: "CAP",
@@ -5642,6 +5642,27 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Persistent",
 		rating: 3,
-		num: -3,
+		num: -4,
 	},
+	scare: {
+		isNonstandard: "Custom",
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'Scare', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({ spa: -1 }, target, pokemon, null, true);
+				}
+			}
+		},
+		flags: {},
+		name: "Scare",
+		rating: 3.5,
+		num: -5,
+	}
 };

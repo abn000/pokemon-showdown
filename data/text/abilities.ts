@@ -2281,4 +2281,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 		activate: "  [POKEMON] extends [MOVE] by 2 turns!",
 	},
+	scare: {
+		name: "Scare",
+		desc: "Lowers the Special Attack of opposing Pokemon by 1 stage when this Pokemon switches in. This effect does not apply to Pokemon with the Abilities As One, Battle Bond, Comatose, Commander, Disguise, Embody Aspect, Flower Gift, Forecast, Hunger Switch, Ice Face, Illusion, Multitype, Neutralizing Gas, Poison Puppeteer, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Wonder Guard, Zen Mode, or Zero to Hero.",
+		shortDesc: "Lowers the Special Attack of opposing Pokemon by 1 stage when this Pokemon switches in.",
+	}
 };
