@@ -435,6 +435,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
+	persiancefira:{
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	perrserker: {
 		tier: "ZU",
 		doublesTier: "(DUU)",
@@ -1279,6 +1283,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "ZU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
+	},
+	ariadoscefira: {
+		tier: "Illegal",
+		isNonstandard: "Custom",
 	},
 	chinchou: {
 		tier: "LC",
@@ -6040,4 +6048,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	descargot: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	soundow: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	}
 };
