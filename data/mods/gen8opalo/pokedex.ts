@@ -125,6 +125,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		baseStats: { hp: 100, atk: 60, def: 86, spa: 110, spd: 96, spe: 50 },
 		abilities: { 0: "Healer", 1: "Regenerator", H: "Klutz" },
-		types: ["Normal", "Fairy"]
+		types: ["Normal", "Dark"]
 	},
 };

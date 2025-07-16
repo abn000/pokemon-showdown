@@ -5618,4 +5618,8 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	soundow: {
+		isNonstandard: null,
+		tier: "OU",
+	}
 };

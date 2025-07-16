@@ -4793,9 +4793,9 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Custom Formats",
 	},
 	{
-		name: "[Gen 8] Opalo",
-		mod: "gen8op",
+		name: "[Gen 8] Custom Dex Opalo",
+		mod: "gen8opalo",
 		searchShow: true,
-		ruleset: [ "Team Preview", "Cancel Mod" ]
+		ruleset: [ "Team Preview", "Cancel Mod" ],
 	},
 ];
