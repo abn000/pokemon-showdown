@@ -22293,7 +22293,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Flying",
 		category: "Physical",
 		accuracy: 100,
-		pp: 16,
+		pp: 15,
 		priority: 0,
 		flags: {
 			contact: 1,
@@ -22323,9 +22323,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "self",
 	},
-	maldignicion: {
+	maldignición: {
 		isNonstandard: "Custom",
-		name: "Maldignici\u00f3n",
+		name: "Maldignición",
 		basePower: 80,
 		type: "Ghost",
 		category: "Special",
@@ -22343,9 +22343,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "normal",
 	},
-	limpiasuenos: {
+	limpiasueños: {
 		isNonstandard: "Custom",
-		name: "Limpia Sue\u00f1os",
+		name: "Limpia Sueños",
 		basePower: 120,
 		type: "Fairy",
 		category: "Special",
@@ -22380,9 +22380,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "normal",
 	},
-	furiatotemica: {
+	furiatotémica: {
 		isNonstandard: "Custom",
-		name: "Furia Tot\u00e9mica",
+		name: "Furia Totémica",
 		basePower: 90,
 		type: "Ground",
 		category: "Special",

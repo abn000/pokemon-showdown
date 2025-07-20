@@ -74,13 +74,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 80, atk: 103, def: 85, spa: 55, spd: 80, spe: 110 },
 		abilities: { 0: "Frisk", 1: "Limber", H: "Iron Fist" },
 	},
-	soundow: {
-		inherit: true,
-		baseStats: { hp: 100, atk: 60, def: 86, spa: 110, spd: 96, spe: 50 },
-		abilities: { 0: "Healer", 1: "Regenerator", H: "Klutz" },
-		types: ["Normal", "Dark"]
-	},
-
 	caterpie: {
 		num: 10,
 		name: "Caterpie",

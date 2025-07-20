@@ -19988,7 +19988,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: [
 			"Lunaye"
 		],
-		isNonstandard: "Custom"
+		isNonstandard: "Custom",
 	},
 	lunaye: {
 		num: 800,

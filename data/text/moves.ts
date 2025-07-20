@@ -7643,12 +7643,12 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "El usuario entra en un estado de euforia, mejorando su Ataque y su Velocidad espectacularmente.",
 		shortDesc: "El usuario entra en un estado de euforia, mejorando su Ataque y su Velocidad espectacularmente."
 	},
-	maldignicion: {
+	maldignición: {
 		name: "Maldignici\u00f3n",
 		desc: "Lanza una maldici\u00f3n vengativa al objetivo. Puede causar quemaduras.",
 		shortDesc: "Lanza una maldici\u00f3n vengativa al objetivo. Puede causar quemaduras."
 	},
-	limpiasuenos: {
+	limpiasueños: {
 		name: "Limpia Sue\u00f1os",
 		desc: "Restaura al usuario la mitad del da\u00f1o causado a un objetivo dormido.",
 		shortDesc: "Restaura al usuario la mitad del da\u00f1o causado a un objetivo dormido."
@@ -7658,7 +7658,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Absorbe la mitad del da\u00f1o producido.",
 		shortDesc: "Absorbe la mitad del da\u00f1o producido."
 	},
-	furiatotemica: {
+	furiatotémica: {
 		name: "Furia Tot\u00e9mica",
 		desc: "Invoca la furia de los ancestros para atacar al oponente. Puede quemar, paralizar o congelar.",
 		shortDesc: "Invoca la furia de los ancestros para atacar al oponente. Puede quemar, paralizar o congelar."
