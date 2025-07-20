@@ -22152,13 +22152,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fire",
 		contestType: "Beautiful",
 	},
-	electrogoo: {
+	electrobaba: {
 		num: 0,
 		basePower: 85,
 		accuracy: 100,
 		category: "Special",
 		isNonstandard: "Custom",
-		name: "Electro Goo",
+		name: "Electrobaba",
 		pp: 15,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
@@ -22171,13 +22171,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Electric",
 	},
-	steamcrash: {
+	choquevapor: {
 		num: 0,
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
 		isNonstandard: "Custom",
-		name: "Steam Crash",
+		name: "Choque Vapor",
 		pp: 10,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, },
@@ -22187,18 +22187,626 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Fire",
 	},
-	brambles: {
+	zarzas: {
 		num: 0,
 		accuracy: 95,
 		basePower: 90,
 		category: "Physical",
 		isNonstandard: "Custom",
-		name: "Brambles",
+		name: "Zarzas",
 		pp: 15,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1 },
+		flags: { 
+			contact: 1,
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
 		volatileStatus: 'partiallytrapped',
 		target: "normal",
 		type: "Grass", 
 	},
+	tiroteo: {
+		isNonstandard: "Custom",
+		name: "Tiroteo",
+		basePower: 25,
+		type: "Dark",
+		category: "Physical",
+		accuracy: 95,
+		pp: 20,
+		priority: 0,
+		flags: {
+			protect: 1,
+			mirror: 1
+		},
+		multihit: [2, 5],
+		target: "normal",
+	},
+	fuegolunar: {
+		isNonstandard: "Custom",
+		name: "Fuego Lunar",
+		basePower: 95,
+		type: "Fire",
+		category: "Special",
+		accuracy: 100,
+		pp: 15,
+		secondary: {
+			chance: 20,
+			boosts: {
+				spd: -1,
+			}
+		},
+		priority: 0,
+		flags: {
+			protect: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	rompehielos: {
+		isNonstandard: "Custom",
+		name: "Rompehielos",
+		basePower: 120,
+		type: "Ice",
+		category: "Physical",
+		accuracy: 95,
+		pp: 15,
+		secondary: {
+			chance: 10,
+			status: 'frz',
+		},
+		recoil: [33, 100],
+		priority: 0,
+		flags: {
+			contact: 1,
+			protect: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	trinchar: {
+		isNonstandard: "Custom",
+		name: "Trinchar",
+		basePower: 10,
+		basePowerCallback(pokemon, target, move) {
+			return 10 * move.hit;
+		},
+		multihit: 3,
+		multiaccuracy: true,
+		type: "Steel",
+		category: "Physical",
+		accuracy: 90,
+		pp: 10,
+		priority: 0,
+		flags: {
+			contact: 1,
+			protect: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	desbandada: {
+		isNonstandard: "Custom",
+		name: "Desbandada",
+		basePower: 75,
+		type: "Flying",
+		category: "Physical",
+		accuracy: 100,
+		pp: 16,
+		priority: 0,
+		flags: {
+			contact: 1,
+			protect: 1
+		},
+		selfSwitch: true,
+		target: "normal",
+
+	},
+	fiebreoro: {
+		isNonstandard: "Custom",
+		name: "Fiebre del Oro",
+		basePower: 0,
+		type: "Dark",
+		category: "Status",
+		accuracy: 0,
+		pp: 10,
+		priority: 0,
+		flags: {
+			snatch: 1
+		},
+		self: {
+			boosts: {
+				atk: 2,
+				spe: 2,
+			}			
+		},
+		target: "self",
+	},
+	maldignicion: {
+		isNonstandard: "Custom",
+		name: "Maldignici\u00f3n",
+		basePower: 80,
+		type: "Ghost",
+		category: "Special",
+		accuracy: 100,
+		pp: 15,
+		secondary: {
+			chance: 30,
+			status: 'brn'
+		},
+		priority: 0,
+		flags: {
+			protect: 1,
+			mirror: 1,
+			defrost: 1
+		},
+		target: "normal",
+	},
+	limpiasuenos: {
+		isNonstandard: "Custom",
+		name: "Limpia Sue\u00f1os",
+		basePower: 120,
+		type: "Fairy",
+		category: "Special",
+		accuracy: 100,
+		pp: 15,
+		priority: 0,
+		flags: {
+			protect: 1,
+			mirror: 1,
+			heal: 1
+		},
+		drain: [1, 2],
+		onTryImmunity(target) {
+			return target.status === 'slp' || target.hasAbility('comatose');
+		},
+		target: "normal",
+	},
+	alafunesta: {
+		isNonstandard: "Custom",
+		name: "Ala Funesta",
+		basePower: 75,
+		type: "Flying",
+		category: "Special",
+		accuracy: 100,
+		pp: 10,
+		drain: [1, 2],
+		priority: 0,
+		flags: {
+			protect: 1,
+			mirror: 1,
+			heal: 1
+		},
+		target: "normal",
+	},
+	furiatotemica: {
+		isNonstandard: "Custom",
+		name: "Furia Tot\u00e9mica",
+		basePower: 90,
+		type: "Ground",
+		category: "Special",
+		accuracy: 100,
+		pp: 10,
+		secondary: {
+			chance: 30,
+			onHit(target, source) {
+				const result = this.random(3);
+				if (result === 0) {
+					target.trySetStatus('brn', source);
+				} else if (result === 1) {
+					target.trySetStatus('par', source);
+				} else {
+					target.trySetStatus('frz', source);
+				}
+			},
+		},
+		priority: 0,
+		flags: {
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	sombratela: {
+		isNonstandard: "Custom",
+		name: "Sombratela",
+		basePower: 70,
+		type: "Dark",
+		category: "Physical",
+		accuracy: 100,
+		pp: 15,
+		secondary:{ 
+			chance: 100,
+			boosts: {
+				spe: -1
+			}
+		},
+		priority: 0,
+		flags: {
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal"
+	},
+	abrazoferoz: {
+		isNonstandard: "Custom",
+		name: "Abrazo Feroz",
+		basePower: 90,
+		type: "Dark",
+		category: "Physical",
+		accuracy: 100,
+		pp: 10,
+		secondaries: [
+			{
+				chance: 15,
+				status: 'par',
+			}, {
+				chance: 15,
+				volatileStatus: 'flinch',
+			},
+		],
+		priority: 0,
+		flags: {
+			contact: 1,
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	geoimpacto: {
+		isNonstandard: "Custom",
+		name: "Geoimpacto",
+		basePower: 140,
+		type: "Ground",
+		category: "Special",
+		accuracy: 100,
+		pp: 5,
+		self: {
+			chance: 100,
+			boosts: {
+				spa: -2
+			}
+		},
+		priority: 0,
+		flags: {
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	pipadelapaz: {
+		isNonstandard: "Custom",
+		name: "Pipa de la Paz",
+		basePower: 85,
+		type: "Psychic",
+		category: "Special",
+		accuracy: 100,
+		pp: 15,
+		secondary: {
+			chance: 30,
+			boosts: {
+				atk: -1,
+			}
+		},
+		priority: 0,
+		flags: {
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	borrasca: {
+		isNonstandard: "Custom",
+		name: "Borrasca",
+		basePower: 120,
+		type: "Electric",
+		category: "Special",
+		accuracy: 80,
+		pp: 5,
+		secondary:{
+			chance: 30,
+			volatileStatus: 'confusion',
+		},
+		priority: 0,
+		flags: {
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	ojosterribles: {
+		isNonstandard: "Custom",
+		name: "Ojos Terribles",
+		basePower: 85,
+		type: "Ghost",
+		category: "Special",
+		accuracy: 100,
+		pp: 15,
+		secondary: {
+			chance: 30,
+			status: 'par'
+		},
+		priority: 0,
+		flags: {
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal" 
+	},
+	drenanima: {
+		isNonstandard: "Custom",
+		name: "Dren\u00e1nima",
+		basePower: 80,
+		type: "Ghost",
+		category: "Special",
+		accuracy: 100,
+		pp: 10,
+		drain: [1, 2],
+		priority: 0,
+		flags: {
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	danzavudu: {
+		isNonstandard: "Custom",
+		name: "Danza Vud\u00fa",
+		basePower: 80,
+		type: "Poison",
+		category: "Special",
+		accuracy: 100,
+		pp: 15,
+		self: {
+			chance: 30,
+			boosts: {
+				spa: 1,
+			}
+		},
+		priority: 0,
+		flags: {
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	patadagelida: {
+		isNonstandard: "Custom",
+		name: "Patada G\u00e9lida",
+		basePower: 85,
+		type: "Ice",
+		category: "Physical",
+		accuracy: 95,
+		pp: 10,
+		secondary: {
+			chance: 10,
+			status: 'frz',
+		},
+		priority: 0,
+		flags: {
+			contact: 1,
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal"
+	},
+	colmillosalvaje: {
+		isNonstandard: "Custom",
+		name: "Colm. Salvaje",
+		basePower: 90,
+		type: "Normal",
+		category: "Physical",
+		accuracy: 100,
+		pp: 10,
+		secondary: {
+			chance: 30,
+			onHit(target, source) {
+				const result = this.random(3);
+				if (result === 0) {
+					target.trySetStatus('brn', source);
+				} else if (result === 1) {
+					target.trySetStatus('par', source);
+				} else {
+					target.trySetStatus('frz', source);
+				}
+			},
+		},
+		priority: 0,
+		flags: {
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	brazomusgo: {
+		isNonstandard: "Custom",
+		name: "Brazo Musgo",
+		basePower: 80,
+		type: "Grass",
+		category: "Physical",
+		accuracy: 100,
+		pp: 15,
+		secondary: {
+			chance: 50,
+			status: 'psn'
+		},
+		priority: 0,
+		flags: {
+			contact: 1,
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1,
+			punch: 1
+		},
+		target: "normal",
+	},
+	laseresencia: {
+		isNonstandard: "Custom",
+		name: "L\u00e1ser Esencia",
+		basePower: 150,
+		type: "Normal",
+		category: "Special",
+		accuracy: 100,
+		pp: 5,
+		priority: 0,
+		flags: {
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	caricatura: {
+		isNonstandard: "Custom",
+		name: "Caricatura",
+		basePower: 70,
+		type: "Normal",
+		category: "Special",
+		accuracy: 100,
+		pp: 10,
+		secondary: {
+			chance: 100,
+			volatileStatus: 'confusion',
+		},
+		priority: 0,
+		flags: {
+			protect: 1,
+			reflectable: 1,
+			snatch: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	flechastral: {
+		isNonstandard: "Custom",
+		name: "Flecha Astral",
+		basePower: 25,
+		type: "Fairy",
+		category: "Physical",
+		accuracy: 100,
+		pp: 20,
+		priority: 0,
+		flags: {
+			contact: 1,
+			protect: 1,
+			mirror: 1
+		},
+		target: "normal",
+		multihit: [2, 5],
+	},
+	lingotazo: {
+		isNonstandard: "Custom",
+		name: "Lingotazo",
+		basePower: 95,
+		type: "Rock",
+		category: "Physical",
+		accuracy: 95,
+		pp: 15,
+		secondary: {
+			chance: 30,
+			status: 'par'
+		},
+		priority: 0,
+		flags: {
+			contact: 1,
+			protect: 1,
+			mirror: 1
+		},
+		target: "normal"
+	},
+	absorbesencia: {
+		isNonstandard: "Custom",
+		name: "Absorbesencia",
+		basePower: 100,
+		type: "Ghost",
+		category: "Physical",
+		accuracy: 100,
+		pp: 10,
+		priority: 0,
+		flags: {
+			protect: 1,
+			mirror: 1
+		},
+		drain: [1, 2],
+		target: "normal",
+	},
+	fuerzaesencia: {
+		isNonstandard: "Custom",
+		name: "Fuerzaesencia",
+		basePower: 100,
+		type: "Psychic",
+		category: "Special",
+		accuracy: 100,
+		pp: 15,
+		priority: 0,
+		flags: {
+			protect: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	ferroimpacto: {
+		isNonstandard: "Custom",
+		name: "Ferroimpacto",
+		basePower: 120,
+		type: "Steel",
+		category: "Physical",
+		accuracy: 85,
+		pp: 10,
+		secondary: {
+			chance: 30,
+			boosts: {
+				def: -1
+			}
+		},
+		priority: 0,
+		flags: {
+			contact: 1,
+			protect: 1,
+			mirror: 1
+		},
+		target: "normal",
+	},
+	cortepetreo: {
+		isNonstandard: "Custom",
+		name: "Corte P\u00e9treo",
+		basePower: 60,
+		type: "Rock",
+		category: "Physical",
+		accuracy: 100,
+		pp: 15,
+		priority: 0,
+		flags: {
+			contact: 1,
+			protect: 1,
+			mirror: 1
+		},
+		critRatio: 2,
+		target: "normal",
+	}
 };

@@ -2281,9 +2281,49 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 		activate: "  [POKEMON] extends [MOVE] by 2 turns!",
 	},
-	scare: {
-		name: "Scare",
-		desc: "Lowers the Special Attack of opposing Pokemon by 1 stage when this Pokemon switches in. This effect does not apply to Pokemon with the Abilities As One, Battle Bond, Comatose, Commander, Disguise, Embody Aspect, Flower Gift, Forecast, Hunger Switch, Ice Face, Illusion, Multitype, Neutralizing Gas, Poison Puppeteer, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Wonder Guard, Zen Mode, or Zero to Hero.",
-		shortDesc: "Lowers the Special Attack of opposing Pokemon by 1 stage when this Pokemon switches in.",
-	}
+	coleoptero: {
+		name: "Cole\u00f3ptero",
+		desc: "Convierte los movimientos de tipo Normal en Bicho.",
+		shortDesc: "Convierte los movimientos de tipo Normal en Bicho."
+	},
+	pielhelada: {
+		name: "Piel Helada",
+		desc: "Convierte los movimientos de tipo Normal en Hielo y los potencia.",
+		shortDesc: "Convierte los movimientos de tipo Normal en Hielo y los potencia."
+	},
+	podersabio: {
+		name: "Poder Sabio",
+		desc: "Aumenta la potencia de los mov. especiales.",
+		shortDesc: "Aumenta la potencia de los mov. especiales."
+	},
+	pielmaldita: {
+		name: "Piel T\u00e9trica",
+		desc: "Convierte los movimientos de tipo Normal en Fantasma y los potencia.",
+		shortDesc: "Convierte los movimientos de tipo Normal en Fantasma y los potencia."
+	},
+	espanto: {
+		name: "Espanto",
+		desc: "Espanta al rival y reduce su Atq.Especial.",
+		shortDesc: "Espanta al rival y reduce su Atq.Especial."
+	},
+	cabezahielo: {
+		name: "Iceberg",
+		desc: "No recibe da\u00f1o de retroceso.",
+		shortDesc: "No recibe da\u00f1o de retroceso."
+	},
+	inflamable: {
+		name: "Inflamable",
+		desc: "Aumenta el da\u00f1o de los ataques de tipo Fuego.",
+		shortDesc: "Aumenta el da\u00f1o de los ataques de tipo Fuego."
+	},
+	albinismo: {
+		name: "Albino",
+		desc: "Aumenta el da\u00f1o de los ataques de tipo Hielo.",
+		shortDesc: "Aumenta el da\u00f1o de los ataques de tipo Hielo."
+	},
+	veranima: {
+		name: "Ver\u00e1nima",
+		desc: "Absorbe movs. especiales y aumenta su Atq. Especial.",
+		shortDesc: "Absorbe movs. especiales y aumenta su Atq. Especial."
+	},
 };

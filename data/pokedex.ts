@@ -1354,21 +1354,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "levelFriendship",
 		eggGroups: ["Field"],
 	},
-	persiancefira: {
-		num: 53,
-		name: "Persian-Cefira",
-		baseSpecies: "Persian",
-		forme: "Cefira",
-		types: ["Normal", "Fire"],
-		baseStats: { hp: 80, atk: 105, def: 65, spa: 60, spd: 65, spe: 115 },
-		abilities: { 0: "Fur Coat", 1: "Technician", H: "Rattled" },
-		heightm: 1.1,
-		weightkg: 33,
-		color: "Blue",
-		prevo: "Meowth",
-		evoType: "levelFriendship",
-		eggGroups: ["Field"],
-	},
 	psyduck: {
 		num: 54,
 		name: "Psyduck",
@@ -3576,21 +3561,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 22,
 		eggGroups: ["Bug"],
 		formeOrder: ["Ariados", "Ariados-Cefira"],
-	},
-	ariadoscefira: {
-		num: 168,
-		name: "Ariados-Cefira",
-		forme: "Cefira",
-		baseSpecies: "Ariados",
-		types: ["Bug", "Dark"],
-		baseStats: { hp: 85, atk: 115, def: 90, spa: 60, spd: 75, spe: 40 },
-		abilities: { 0: "Swarm", 1: "Insomnia", H: "Sniper" },
-		heightm: 1.1,
-		weightkg: 33.5,
-		color: "Red",
-		prevo: "Spinarak",
-		evoLevel: 22,
-		eggGroups: ["Bug"],
 	},
 	crobat: {
 		num: 169,
@@ -19874,26 +19844,1778 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
-	soundow: {
-		num: -1000,
-		name: "Soundow",
-		baseStats: { hp: 100, atk: 60, def: 86, spa: 110, spd: 96, spe: 50 },
-		abilities: { 0: "Healer", 1: "Regenerator", H: "Klutz" },
-		types: ["Normal", "Fairy"],
-		eggGroups: ["Fairy"],
-		heightm: 0.6,
-		weightkg: 10.5,
-		color: "Pink",
+	snampery: {
+		num: 795,
+		name: "Snampery",
+		types: [
+			"Grass"
+		],
+		baseStats: {
+			hp: 60,
+			atk: 50,
+			def: 60,
+			spe: 35,
+			spa: 65,
+			spd: 55
+		},
+		abilities: {
+			0: "Overgrow",
+			H: "Regenerator"
+		},
+		heightm: 0.5,
+		weightkg: 5.0,
+		color: "green",
+		eggGroups: [
+			"Field"
+		],
+		evos: [
+			"Descargot"
+		],
+		isNonstandard: "Custom"
 	},
 	descargot: {
-		num: -796,
+		num: 796,
 		name: "Descargot",
-		baseStats: { hp: 90, atk: 65, def: 85, spa: 90, spd: 70, spe: 50 },
-		abilities: { 0: "Overgrow", H: "Regenerator" },
-		types: ["Grass", "Electric"],
-		eggGroups: ["Field"],
+		types: [
+			"Grass",
+			"Electric"
+		],
+		baseStats: {
+			hp: 90,
+			atk: 65,
+			def: 85,
+			spe: 50,
+			spa: 90,
+			spd: 70
+		},
+		abilities: {
+			0: "Overgrow",
+			H: "Regenerator"
+		},
 		heightm: 0.5,
-		weightkg: 5,
-		color: "Green", 
-	}
+		weightkg: 5.0,
+		color: "green",
+		eggGroups: [
+			"Field"
+		],
+		evos: [
+			"Gastesla"
+		],
+		isNonstandard: "Custom"
+	},
+	gastesla: {
+		num: 797,
+		name: "Gastesla",
+		types: [
+			"Grass",
+			"Electric"
+		],
+		baseStats: {
+			hp: 100,
+			atk: 75,
+			def: 110,
+			spe: 60,
+			spa: 115,
+			spd: 80
+		},
+		abilities: {
+			0: "Overgrow",
+			H: "Regenerator"
+		},
+		heightm: 0.5,
+		weightkg: 5.0,
+		color: "green",
+		eggGroups: [
+			"Field"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	flasinge: {
+		num: 798,
+		name: "Flasinge",
+		types: [
+			"Fire"
+		],
+		baseStats: {
+			hp: 50,
+			atk: 50,
+			def: 40,
+			spe: 65,
+			spa: 65,
+			spd: 55
+		},
+		abilities: {
+			0: "Blaze",
+			H: "Insomnia"
+		},
+		heightm: 0.5,
+		weightkg: 9.9,
+		color: "red",
+		eggGroups: [
+			"Field"
+		],
+		evos: [
+			"Shaboon"
+		],
+		isNonstandard: "Custom"
+	},
+	shaboon: {
+		num: 799,
+		name: "Shaboon",
+		types: [
+			"Fire",
+			"Fairy"
+		],
+		baseStats: {
+			hp: 80,
+			atk: 60,
+			def: 55,
+			spe: 80,
+			spa: 95,
+			spd: 70
+		},
+		abilities: {
+			0: "Blaze",
+			H: "Intimidate"
+		},
+		heightm: 0.5,
+		weightkg: 9.9,
+		color: "red",
+		eggGroups: [
+			"Field"
+		],
+		evos: [
+			"Lunaye"
+		],
+		isNonstandard: "Custom"
+	},
+	lunaye: {
+		num: 800,
+		name: "Lunaye",
+		types: [
+			"Fire",
+			"Fairy"
+		],
+		baseStats: {
+			hp: 90,
+			atk: 70,
+			def: 70,
+			spe: 110,
+			spa: 110,
+			spd: 90
+		},
+		abilities: {
+			0: "Blaze",
+			H: "Intimidate"
+		},
+		heightm: 0.5,
+		weightkg: 9.9,
+		color: "red",
+		eggGroups: [
+			"Field"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	swolphin: {
+		num: 801,
+		name: "Swolphin",
+		types: [
+			"Water"
+		],
+		baseStats: {
+			hp: 60,
+			atk: 65,
+			def: 50,
+			spe: 45,
+			spa: 50,
+			spd: 55
+		},
+		abilities: {
+			0: "Torrent",
+			H: "Guts"
+		},
+		heightm: 0.4,
+		weightkg: 5.2,
+		color: "blue",
+		eggGroups: [
+			"Water1",
+			"Field"
+		],
+		evos: [
+			"Norspear"
+		],
+		isNonstandard: "Custom"
+	},
+	norspear: {
+		num: 802,
+		name: "Norspear",
+		types: [
+			"Water",
+			"Ice"
+		],
+		baseStats: {
+			hp: 90,
+			atk: 98,
+			def: 75,
+			spe: 65,
+			spa: 62,
+			spd: 60
+		},
+		abilities: {
+			0: "Torrent",
+			H: "Guts"
+		},
+		heightm: 0.4,
+		weightkg: 5.2,
+		color: "blue",
+		eggGroups: [
+			"Water1",
+			"Field"
+		],
+		evos: [
+			"Narvalor"
+		],
+		isNonstandard: "Custom"
+	},
+	narvalor: {
+		num: 803,
+		name: "Narvalor",
+		types: [
+			"Water",
+			"Ice"
+		],
+		baseStats: {
+			hp: 105,
+			atk: 125,
+			def: 95,
+			spe: 75,
+			spa: 65,
+			spd: 75
+		},
+		abilities: {
+			0: "Torrent",
+			H: "Guts"
+		},
+		heightm: 0.4,
+		weightkg: 5.2,
+		color: "blue",
+		eggGroups: [
+			"Water1",
+			"Field"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	cefireon: {
+		num: 807,
+		name: "Cefireon",
+		types: [
+			"Flying"
+		],
+		baseStats: {
+			hp: 65,
+			atk: 65,
+			def: 60,
+			spe: 130,
+			spa: 110,
+			spd: 95
+		},
+		abilities: {
+			0: "Lightning Rod",
+			H: "Compound Eyes"
+		},
+		heightm: 1.0,
+		weightkg: 29.0,
+		color: "blue",
+		eggGroups: [
+			"Field"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	lupice: {
+		num: 889,
+		name: "Lupice",
+		types: [
+			"Ice",
+			"Fighting"
+		],
+		baseStats: {
+			hp: 70,
+			atk: 105,
+			def: 85,
+			spe: 110,
+			spa: 54,
+			spd: 96
+		},
+		abilities: {
+			0: "Reckless",
+			H: "Limber"
+		},
+		heightm: 1.2,
+		weightkg: 33.3,
+		color: "brown",
+		eggGroups: [
+			"Field",
+			"Humanlike"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	mossfoot: {
+		num: 890,
+		name: "Mossfoot",
+		types: [
+			"Grass",
+			"Water"
+		],
+		baseStats: {
+			hp: 100,
+			atk: 103,
+			def: 85,
+			spe: 40,
+			spa: 103,
+			spd: 95
+		},
+		abilities: {
+			0: "Poison Heal",
+			H: "Soundproof"
+		},
+		heightm: 2.2,
+		weightkg: 135.5,
+		color: "white",
+		eggGroups: [
+			"Monster",
+			"Grass"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	astrem: {
+		num: 891,
+		name: "Astrem",
+		types: [
+			"Psychic",
+			"Fairy"
+		],
+		baseStats: {
+			hp: 100,
+			atk: 100,
+			def: 90,
+			spe: 120,
+			spa: 160,
+			spd: 110
+		},
+		abilities: {
+			0: "Magic Guard"
+		},
+		heightm: 2.2,
+		weightkg: 135.5,
+		color: "white",
+		eggGroups: [
+			"Undiscovered"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	maidible: {
+		num: 892,
+		name: "Maidible",
+		types: [
+			"Steel",
+			"Fairy"
+		],
+		baseStats: {
+			hp: 75,
+			atk: 115,
+			def: 105,
+			spe: 65,
+			spa: 55,
+			spd: 70
+		},
+		abilities: {
+			0: "Hyper Cutter",
+			1: "Intimidate",
+			H: "Sheer Force"
+		},
+		heightm: 0.6,
+		weightkg: 11.5,
+		color: "black",
+		eggGroups: [
+			"Field",
+			"Fairy"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	zippectre: {
+		num: 893,
+		name: "Zippectre",
+		types: [
+			"Ghost"
+		],
+		baseStats: {
+			hp: 84,
+			atk: 130,
+			def: 75,
+			spe: 80,
+			spa: 83,
+			spd: 73
+		},
+		abilities: {
+			0: "Prankster",
+			1: "Frisk",
+			H: "Cursed Body"
+		},
+		heightm: 1.1,
+		weightkg: 12.5,
+		color: "black",
+		eggGroups: [
+			"Amorphous"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	soundow: {
+		num: 894,
+		name: "Soundow",
+		types: [
+			"Normal",
+			"Fairy"
+		],
+		baseStats: {
+			hp: 100,
+			atk: 60,
+			def: 86,
+			spe: 50,
+			spa: 110,
+			spd: 96
+		},
+		abilities: {
+			0: "Healer",
+			1: "Regenerator",
+			H: "Klutz"
+		},
+		heightm: 1.1,
+		weightkg: 31.0,
+		color: "pink",
+		eggGroups: [
+			"Fairy"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	unktena: {
+		num: 906,
+		name: "Unktena",
+		types: [
+			"Poison",
+			"Ghost"
+		],
+		baseStats: {
+			hp: 150,
+			atk: 160,
+			def: 130,
+			spe: 100,
+			spa: 110,
+			spd: 130
+		},
+		abilities: {
+			0: "Magic Bounce"
+		},
+		heightm: 1.8,
+		weightkg: 13.0,
+		color: "white",
+		eggGroups: [
+			"Undiscovered"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	polekin: {
+		num: 907,
+		name: "Polekin",
+		types: [
+			"Grass"
+		],
+		baseStats: {
+			hp: 58,
+			atk: 65,
+			def: 50,
+			spe: 51,
+			spa: 44,
+			spd: 45
+		},
+		abilities: {
+			0: "Overgrow",
+			H: "Reckless"
+		},
+		heightm: 0.4,
+		weightkg: 30.0,
+		color: "green",
+		eggGroups: [
+			"Field"
+		],
+		evos: [
+			"Fungorse"
+		],
+		isNonstandard: "Custom"
+	},
+	fungorse: {
+		num: 908,
+		name: "Fungorse",
+		types: [
+			"Grass",
+			"Fairy"
+		],
+		baseStats: {
+			hp: 80,
+			atk: 90,
+			def: 60,
+			spe: 65,
+			spa: 60,
+			spd: 55
+		},
+		abilities: {
+			0: "Overgrow",
+			H: "Reckless"
+		},
+		heightm: 0.4,
+		weightkg: 150.0,
+		color: "green",
+		eggGroups: [
+			"Field"
+		],
+		evos: [
+			"Cervantrier"
+		],
+		isNonstandard: "Custom"
+	},
+	cervantrier: {
+		num: 909,
+		name: "Cervantrier",
+		types: [
+			"Grass",
+			"Fairy"
+		],
+		baseStats: {
+			hp: 95,
+			atk: 115,
+			def: 70,
+			spe: 90,
+			spa: 80,
+			spd: 80
+		},
+		abilities: {
+			0: "Overgrow",
+			H: "Reckless"
+		},
+		heightm: 0.4,
+		weightkg: 800.0,
+		color: "green",
+		eggGroups: [
+			"Field"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	lugnis: {
+		num: 910,
+		name: "Lugnis",
+		types: [
+			"Fire"
+		],
+		baseStats: {
+			hp: 39,
+			atk: 60,
+			def: 43,
+			spe: 65,
+			spa: 52,
+			spd: 50
+		},
+		abilities: {
+			0: "Blaze",
+			H: "Unnerve"
+		},
+		heightm: 0.6,
+		weightkg: 8.5,
+		color: "red",
+		eggGroups: [
+			"Field"
+		],
+		evos: [
+			"Luravit"
+		],
+		isNonstandard: "Custom"
+	},
+	luravit: {
+		num: 911,
+		name: "Luravit",
+		types: [
+			"Fire"
+		],
+		baseStats: {
+			hp: 65,
+			atk: 80,
+			def: 55,
+			spe: 90,
+			spa: 70,
+			spd: 55
+		},
+		abilities: {
+			0: "Blaze",
+			H: "Unnerve"
+		},
+		heightm: 0.6,
+		weightkg: 40.0,
+		color: "red",
+		eggGroups: [
+			"Field"
+		],
+		evos: [
+			"Luxpiravit"
+		],
+		isNonstandard: "Custom"
+	},
+	luxpiravit: {
+		num: 912,
+		name: "Luxpiravit",
+		types: [
+			"Fire",
+			"Ghost"
+		],
+		baseStats: {
+			hp: 75,
+			atk: 112,
+			def: 70,
+			spe: 115,
+			spa: 98,
+			spd: 70
+		},
+		abilities: {
+			0: "Blaze",
+			H: "Levitate"
+		},
+		heightm: 0.6,
+		weightkg: 150.0,
+		color: "red",
+		eggGroups: [
+			"Field"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	quisquite: {
+		num: 913,
+		name: "Quisquite",
+		types: [
+			"Water",
+			"Bug"
+		],
+		baseStats: {
+			hp: 53,
+			atk: 51,
+			def: 60,
+			spe: 40,
+			spa: 63,
+			spd: 50
+		},
+		abilities: {
+			0: "Torrent",
+			H: "Shell Armor"
+		},
+		heightm: 0.4,
+		weightkg: 10.0,
+		color: "blue",
+		eggGroups: [
+			"Water1",
+			"Field"
+		],
+		evos: [
+			"Gambarrel"
+		],
+		isNonstandard: "Custom"
+	},
+	gambarrel: {
+		num: 914,
+		name: "Gambarrel",
+		types: [
+			"Water",
+			"Bug"
+		],
+		baseStats: {
+			hp: 75,
+			atk: 65,
+			def: 85,
+			spe: 50,
+			spa: 77,
+			spd: 65
+		},
+		abilities: {
+			0: "Torrent",
+			H: "Shell Armor"
+		},
+		heightm: 0.4,
+		weightkg: 200.0,
+		color: "blue",
+		eggGroups: [
+			"Water1",
+			"Field"
+		],
+		evos: [
+			"Bogaleon"
+		],
+		isNonstandard: "Custom"
+	},
+	bogaleon: {
+		num: 915,
+		name: "Bogaleon",
+		types: [
+			"Water",
+			"Bug"
+		],
+		baseStats: {
+			hp: 85,
+			atk: 82,
+			def: 110,
+			spe: 70,
+			spa: 118,
+			spd: 65
+		},
+		abilities: {
+			0: "Torrent",
+			H: "Mega Launcher"
+		},
+		heightm: 0.4,
+		weightkg: 800.0,
+		color: "blue",
+		eggGroups: [
+			"Water1",
+			"Field"
+		],
+		evos: [],
+		isNonstandard: "Custom"
+	},
+	venomothcefira: {
+        num: 49,
+        name: "Venomoth",
+        types: [
+            "Bug",
+            "Ghost"
+        ],
+        baseStats: {
+            hp: 70,
+            atk: 65,
+            def: 60,
+            spe: 90,
+            spa: 100,
+            spd: 90
+        },
+        abilities: {
+            0: "Espanto",
+            H: "Tinted Lens"
+        },
+        baseSpecies: "Venomoth",
+        eggGroups: [
+            "Bug"
+        ],
+        weightkg: 12.5
+    },
+    diglettcefira: {
+        num: 50,
+        name: "Diglett",
+        types: [
+            "Ground",
+            "Flying"
+        ],
+        baseStats: {
+            hp: 30,
+            atk: 60,
+            def: 35,
+            spe: 95,
+            spa: 35,
+            spd: 45
+        },
+        abilities: {
+            0: "Anticipation",
+            H: "Sand Force"
+        },
+        baseSpecies: "Diglett",
+        eggGroups: [
+            "Field"
+        ],
+        weightkg: 0.8
+    },
+    dugtriocefira: {
+        num: 51,
+        name: "Dugtrio",
+        types: [
+            "Ground",
+            "Flying"
+        ],
+        baseStats: {
+            hp: 55,
+            atk: 50,
+            def: 70,
+            spe: 120,
+            spa: 100,
+            spd: 70
+        },
+        abilities: {
+            0: "Anticipation",
+            H: "Sand Force"
+        },
+        baseSpecies: "Dugtrio",
+        eggGroups: [
+            "Field"
+        ],
+        weightkg: 33.3
+    },
+    meowthcefira: {
+        num: 52,
+        name: "Meowth",
+        types: [
+            "Normal",
+            "Fire"
+        ],
+        baseStats: {
+            hp: 50,
+            atk: 65,
+            def: 35,
+            spe: 90,
+            spa: 40,
+            spd: 40
+        },
+        abilities: {
+            0: "Pickup",
+            H: "Technician"
+        },
+        baseSpecies: "Meowth",
+        eggGroups: [
+            "Field"
+        ],
+        weightkg: 4.2
+    },
+    persiancefira: {
+        num: 53,
+        name: "Persian",
+        types: [
+            "Normal",
+            "Fire"
+        ],
+        baseStats: {
+            hp: 80,
+            atk: 105,
+            def: 65,
+            spe: 115,
+            spa: 60,
+            spd: 65
+        },
+        abilities: {
+            0: "Tough Claws",
+            H: "Technician"
+        },
+        baseSpecies: "Persian",
+        eggGroups: [
+            "Field"
+        ],
+        weightkg: 32.0
+    },
+    farfetchdcefira: {
+        num: 83,
+        name: "Farfetch'd",
+        types: [
+            "Steel",
+            "Flying"
+        ],
+        baseStats: {
+            hp: 52,
+            atk: 90,
+            def: 55,
+            spe: 60,
+            spa: 58,
+            spd: 62
+        },
+        abilities: {
+            0: "Keen Eye",
+            1: "Inner Focus",
+            H: "Defiant"
+        },
+        baseSpecies: "Farfetch'd",
+        eggGroups: [
+            "Flying",
+            "Field"
+        ],
+        weightkg: 15.0
+    },
+    cubonecefira: {
+        num: 104,
+        name: "Cubone",
+        types: [
+            "Ground",
+            "Rock"
+        ],
+        baseStats: {
+            hp: 50,
+            atk: 70,
+            def: 95,
+            spe: 55,
+            spa: 40,
+            spd: 50
+        },
+        abilities: {
+            0: "Rock Head",
+            1: "Sturdy",
+            H: "Battle Armor"
+        },
+        baseSpecies: "Cubone",
+        eggGroups: [
+            "Monster"
+        ],
+        weightkg: 6.5
+    },
+    marowakcefira: {
+        num: 105,
+        name: "Marowak",
+        types: [
+            "Ground",
+            "Steel"
+        ],
+        baseStats: {
+            hp: 60,
+            atk: 80,
+            def: 110,
+            spe: 65,
+            spa: 50,
+            spd: 80
+        },
+        abilities: {
+            0: "Rock Head",
+            1: "Sturdy",
+            H: "Sheer Force"
+        },
+        baseSpecies: "Marowak",
+        eggGroups: [
+            "Monster"
+        ],
+        weightkg: 45.0
+    },
+    jynxcefira: {
+        num: 124,
+        name: "Jynx",
+        types: [
+            "Psychic",
+            "Fairy"
+        ],
+        baseStats: {
+            hp: 65,
+            atk: 50,
+            def: 35,
+            spe: 105,
+            spa: 115,
+            spd: 95
+        },
+        abilities: {
+            0: "Cute Charm",
+            1: "Own Tempo",
+            H: "Dry Skin"
+        },
+        baseSpecies: "Jynx",
+        eggGroups: [
+            "Humanlike"
+        ],
+        weightkg: 40.6
+    },
+    spinarakcefira: {
+        num: 167,
+        name: "Spinarak",
+        types: [
+            "Bug",
+            "Dark"
+        ],
+        baseStats: {
+            hp: 70,
+            atk: 95,
+            def: 60,
+            spe: 40,
+            spa: 40,
+            spd: 70
+        },
+        abilities: {
+            0: "Poison Touch",
+            1: "Unnerve",
+            H: "Sniper"
+        },
+        baseSpecies: "Spinarak",
+        eggGroups: [
+            "Bug"
+        ],
+        weightkg: 8.5
+    },
+    ariadoscefira: {
+        num: 168,
+        name: "Ariados",
+        types: [
+            "Bug",
+            "Dark"
+        ],
+        baseStats: {
+            hp: 85,
+            atk: 115,
+            def: 90,
+            spe: 40,
+            spa: 60,
+            spd: 75
+        },
+        abilities: {
+            0: "Poison Touch",
+            1: "Unnerve",
+            H: "Sniper"
+        },
+        baseSpecies: "Ariados",
+        eggGroups: [
+            "Bug"
+        ],
+        weightkg: 33.5
+    },
+    teddiursacefira: {
+        num: 216,
+        name: "Teddiursa",
+        types: [
+            "Dark"
+        ],
+        baseStats: {
+            hp: 60,
+            atk: 80,
+            def: 40,
+            spe: 50,
+            spa: 50,
+            spd: 50
+        },
+        abilities: {
+            0: "Pickup",
+            1: "Quick Feet",
+            H: "Honey Gather"
+        },
+        baseSpecies: "Teddiursa",
+        eggGroups: [
+            "Field"
+        ],
+        weightkg: 8.8
+    },
+    ursaringcefira: {
+        num: 217,
+        name: "Ursaring",
+        types: [
+            "Dark"
+        ],
+        baseStats: {
+            hp: 90,
+            atk: 125,
+            def: 55,
+            spe: 95,
+            spa: 70,
+            spd: 75
+        },
+        abilities: {
+            0: "Guts",
+            1: "Intimidate",
+            H: "Unnerve"
+        },
+        baseSpecies: "Ursaring",
+        eggGroups: [
+            "Field"
+        ],
+        weightkg: 125.8
+    },
+    slugmacefira: {
+        num: 218,
+        name: "Slugma",
+        types: [
+            "Poison"
+        ],
+        baseStats: {
+            hp: 60,
+            atk: 40,
+            def: 60,
+            spe: 20,
+            spa: 70,
+            spd: 40
+        },
+        abilities: {
+            0: "Inflamable",
+            H: "Weak Armor"
+        },
+        baseSpecies: "Slugma",
+        eggGroups: [
+            "Amorphous"
+        ],
+        weightkg: 35.0
+    },
+    magcargocefira: {
+        num: 219,
+        name: "Magcargo",
+        types: [
+            "Poison",
+            "Steel"
+        ],
+        baseStats: {
+            hp: 70,
+            atk: 50,
+            def: 140,
+            spe: 30,
+            spa: 100,
+            spd: 80
+        },
+        abilities: {
+            0: "Inflamable",
+            H: "Weak Armor"
+        },
+        baseSpecies: "Magcargo",
+        eggGroups: [
+            "Amorphous"
+        ],
+        weightkg: 55.0
+    },
+    delibirdcefira: {
+        num: 225,
+        name: "Delibird",
+        types: [
+            "Dark",
+            "Flying"
+        ],
+        baseStats: {
+            hp: 70,
+            atk: 85,
+            def: 70,
+            spe: 90,
+            spa: 75,
+            spd: 65
+        },
+        abilities: {
+            0: "Skill Link",
+            H: "Pickpocket"
+        },
+        baseSpecies: "Delibird",
+        eggGroups: [
+            "Water1",
+            "Field"
+        ],
+        weightkg: 16.0
+    },
+    smearglecefira: {
+        num: 235,
+        name: "Smeargle",
+        types: [
+            "Normal",
+            "Fighting"
+        ],
+        baseStats: {
+            hp: 55,
+            atk: 20,
+            def: 35,
+            spe: 75,
+            spa: 20,
+            spd: 45
+        },
+        abilities: {
+            0: "Prankster",
+            H: "Moody"
+        },
+        baseSpecies: "Smeargle",
+        eggGroups: [
+            "Field"
+        ],
+        weightkg: 58.0
+    },
+    smoochumcefira: {
+        num: 238,
+        name: "Smoochum",
+        types: [
+            "Psychic",
+            "Fairy"
+        ],
+        baseStats: {
+            hp: 45,
+            atk: 30,
+            def: 15,
+            spe: 65,
+            spa: 85,
+            spd: 65
+        },
+        abilities: {
+            0: "Oblivious",
+            1: "Forewarn",
+            H: "Hydration"
+        },
+        baseSpecies: "Smoochum",
+        eggGroups: [
+            "Undiscovered"
+        ],
+        weightkg: 6.0
+    },
+    celebicefira: {
+        num: 251,
+        name: "Celebi",
+        types: [
+            "Fairy",
+            "Ground"
+        ],
+        baseStats: {
+            hp: 100,
+            atk: 100,
+            def: 100,
+            spe: 100,
+            spa: 100,
+            spd: 100
+        },
+        abilities: {
+            0: "Magic Bounce"
+        },
+        baseSpecies: "Celebi",
+        eggGroups: [
+            "Undiscovered"
+        ],
+        weightkg: 5.0
+    },
+    makuhitacefira: {
+        num: 296,
+        name: "Makuhita",
+        types: [
+            "Fighting",
+            "Psychic"
+        ],
+        baseStats: {
+            hp: 72,
+            atk: 20,
+            def: 30,
+            spe: 25,
+            spa: 60,
+            spd: 30
+        },
+        abilities: {
+            0: "Thick Fat",
+            1: "White Smoke",
+            H: "Magic Bounce"
+        },
+        baseSpecies: "Makuhita",
+        eggGroups: [
+            "Humanlike"
+        ],
+        weightkg: 86.4
+    },
+    hariyamacefira: {
+        num: 297,
+        name: "Hariyama",
+        types: [
+            "Fighting",
+            "Psychic"
+        ],
+        baseStats: {
+            hp: 144,
+            atk: 40,
+            def: 60,
+            spe: 50,
+            spa: 120,
+            spd: 60
+        },
+        abilities: {
+            0: "Thick Fat",
+            1: "White Smoke",
+            H: "Magic Bounce"
+        },
+        baseSpecies: "Hariyama",
+        eggGroups: [
+            "Humanlike"
+        ],
+        weightkg: 253.8
+    },
+    sableyecefira: {
+        num: 302,
+        name: "Sableye",
+        types: [
+            "Dark",
+            "Rock"
+        ],
+        baseStats: {
+            hp: 50,
+            atk: 95,
+            def: 75,
+            spe: 80,
+            spa: 65,
+            spd: 65
+        },
+        abilities: {
+            0: "Hustle",
+            H: "Prankster"
+        },
+        baseSpecies: "Sableye",
+        eggGroups: [
+            "Humanlike"
+        ],
+        weightkg: 11.0
+    },
+    numelcefira: {
+        num: 322,
+        name: "Numel",
+        types: [
+            "Fire",
+            "Water"
+        ],
+        baseStats: {
+            hp: 60,
+            atk: 60,
+            def: 40,
+            spe: 35,
+            spa: 65,
+            spd: 45
+        },
+        abilities: {
+            0: "Sheer Force",
+            H: "Own Tempo"
+        },
+        baseSpecies: "Numel",
+        eggGroups: [
+            "Field"
+        ],
+        weightkg: 24.0
+    },
+    cameruptcefira: {
+        num: 323,
+        name: "Camerupt",
+        types: [
+            "Fire",
+            "Water"
+        ],
+        baseStats: {
+            hp: 70,
+            atk: 100,
+            def: 70,
+            spe: 40,
+            spa: 105,
+            spd: 75
+        },
+        abilities: {
+            0: "Sheer Force",
+            1: "Solid Rock",
+            H: "Anger Point"
+        },
+        baseSpecies: "Camerupt",
+        eggGroups: [
+            "Field"
+        ],
+        weightkg: 220.0
+    },
+    swablucefira: {
+        num: 333,
+        name: "Swablu",
+        types: [
+            "Electric",
+            "Flying"
+        ],
+        baseStats: {
+            hp: 45,
+            atk: 60,
+            def: 60,
+            spe: 50,
+            spa: 60,
+            spd: 75
+        },
+        abilities: {
+            0: "Static",
+            H: "Cloud Nine"
+        },
+        baseSpecies: "Swablu",
+        eggGroups: [
+            "Flying",
+            "Dragon"
+        ],
+        weightkg: 1.2
+    },
+    altariacefira: {
+        num: 334,
+        name: "Altaria",
+        types: [
+            "Electric",
+            "Dragon"
+        ],
+        baseStats: {
+            hp: 75,
+            atk: 70,
+            def: 90,
+            spe: 80,
+            spa: 90,
+            spd: 105
+        },
+        abilities: {
+            0: "Static",
+            H: "Cloud Nine"
+        },
+        baseSpecies: "Altaria",
+        eggGroups: [
+            "Flying",
+            "Dragon"
+        ],
+        weightkg: 20.6
+    },
+    snoruntcefira: {
+        num: 361,
+        name: "Snorunt",
+        types: [
+            "Ground"
+        ],
+        baseStats: {
+            hp: 50,
+            atk: 50,
+            def: 50,
+            spe: 50,
+            spa: 50,
+            spd: 50
+        },
+        abilities: {
+            0: "Inner Focus",
+            1: "Poison Heal",
+            H: "Moody"
+        },
+        baseSpecies: "Snorunt",
+        eggGroups: [
+            "Fairy",
+            "Mineral"
+        ],
+        weightkg: 16.8
+    },
+    glaliecefira: {
+        num: 362,
+        name: "Glalie",
+        types: [
+            "Ghost",
+            "Flying"
+        ],
+        baseStats: {
+            hp: 80,
+            atk: 90,
+            def: 80,
+            spe: 80,
+            spa: 90,
+            spd: 80
+        },
+        abilities: {
+            0: "Intimidate",
+            H: "Moody"
+        },
+        baseSpecies: "Glalie",
+        eggGroups: [
+            "Fairy",
+            "Mineral"
+        ],
+        weightkg: 256.5
+    },
+    bunearycefira: {
+        num: 427,
+        name: "Buneary",
+        types: [
+            "Ice"
+        ],
+        baseStats: {
+            hp: 55,
+            atk: 66,
+            def: 44,
+            spe: 85,
+            spa: 44,
+            spd: 56
+        },
+        abilities: {
+            0: "Run Away",
+            1: "Klutz",
+            H: "Limber"
+        },
+        baseSpecies: "Buneary",
+        eggGroups: [
+            "Field",
+            "Humanlike"
+        ],
+        weightkg: 5.5
+    },
+    lopunnycefira: {
+        num: 428,
+        name: "Lopunny",
+        types: [
+            "Ice",
+            "Fighting"
+        ],
+        baseStats: {
+            hp: 65,
+            atk: 76,
+            def: 84,
+            spe: 105,
+            spa: 54,
+            spd: 96
+        },
+        abilities: {
+            0: "Iron Fist",
+            H: "Limber"
+        },
+        baseSpecies: "Lopunny",
+        eggGroups: [
+            "Field",
+            "Humanlike"
+        ],
+        weightkg: 33.3
+    },
+    snovercefira: {
+        num: 459,
+        name: "Snover",
+        types: [
+            "Grass",
+            "Water"
+        ],
+        baseStats: {
+            hp: 60,
+            atk: 62,
+            def: 50,
+            spe: 40,
+            spa: 62,
+            spd: 60
+        },
+        abilities: {
+            0: "Poison Heal",
+            H: "Soundproof"
+        },
+        baseSpecies: "Snover",
+        eggGroups: [
+            "Monster",
+            "Grass"
+        ],
+        weightkg: 50.5
+    },
+    abomasnowcefira: {
+        num: 460,
+        name: "Abomasnow",
+        types: [
+            "Grass",
+            "Water"
+        ],
+        baseStats: {
+            hp: 85,
+            atk: 82,
+            def: 70,
+            spe: 60,
+            spa: 82,
+            spd: 80
+        },
+        abilities: {
+            0: "Poison Heal",
+            H: "Soundproof"
+        },
+        baseSpecies: "Abomasnow",
+        eggGroups: [
+            "Monster",
+            "Grass"
+        ],
+        weightkg: 135.5
+    },
+    tangrowthcefira: {
+        num: 465,
+        name: "Tangrowth",
+        types: [
+            "Grass",
+            "Ground"
+        ],
+        baseStats: {
+            hp: 100,
+            atk: 110,
+            def: 125,
+            spe: 50,
+            spa: 100,
+            spd: 50
+        },
+        abilities: {
+            0: "Rough Skin",
+            H: "Regenerator"
+        },
+        baseSpecies: "Tangrowth",
+        eggGroups: [
+            "Grass"
+        ],
+        weightkg: 128.6
+    },
+    froslasscefira: {
+        num: 478,
+        name: "Froslass",
+        types: [
+            "Ghost",
+            "Ground"
+        ],
+        baseStats: {
+            hp: 70,
+            atk: 80,
+            def: 70,
+            spe: 110,
+            spa: 95,
+            spd: 70
+        },
+        abilities: {
+            0: "Shadow Tag",
+            H: "Cursed Body"
+        },
+        baseSpecies: "Froslass",
+        eggGroups: [
+            "Fairy",
+            "Mineral"
+        ],
+        weightkg: 26.6
+    },
+    petililcefira: {
+        num: 548,
+        name: "Petilil",
+        types: [
+            "Grass",
+            "Poison"
+        ],
+        baseStats: {
+            hp: 45,
+            atk: 35,
+            def: 50,
+            spe: 30,
+            spa: 70,
+            spd: 50
+        },
+        abilities: {
+            0: "Prankster",
+            1: "Own Tempo",
+            H: "Leaf Guard"
+        },
+        baseSpecies: "Petilil",
+        eggGroups: [
+            "Grass"
+        ],
+        weightkg: 6.6
+    },
+    lilligantcefira: {
+        num: 549,
+        name: "Lilligant",
+        types: [
+            "Grass",
+            "Poison"
+        ],
+        baseStats: {
+            hp: 70,
+            atk: 60,
+            def: 75,
+            spe: 90,
+            spa: 110,
+            spd: 75
+        },
+        abilities: {
+            0: "Prankster",
+            1: "Own Tempo",
+            H: "Leaf Guard"
+        },
+        baseSpecies: "Lilligant",
+        eggGroups: [
+            "Grass"
+        ],
+        weightkg: 16.3
+    },
+    gothitellecefira: {
+        num: 576,
+        name: "Gothitelle",
+        types: [
+            "Ghost",
+            "Fire"
+        ],
+        baseStats: {
+            hp: 70,
+            atk: 55,
+            def: 95,
+            spe: 65,
+            spa: 95,
+            spd: 110
+        },
+        abilities: {
+            0: "Flame Body",
+            H: "Cursed Body"
+        },
+        baseSpecies: "Gothitelle",
+        eggGroups: [
+            "Humanlike"
+        ],
+        weightkg: 44.0
+    },
+    golettcefira: {
+        num: 622,
+        name: "Golett",
+        types: [
+            "Steel",
+            "Fire"
+        ],
+        baseStats: {
+            hp: 59,
+            atk: 74,
+            def: 50,
+            spe: 35,
+            spa: 35,
+            spd: 50
+        },
+        abilities: {
+            0: "Water Absorb",
+            H: "Flash Fire"
+        },
+        baseSpecies: "Golett",
+        eggGroups: [
+            "Mineral"
+        ],
+        weightkg: 92.0
+    },
+    golurkcefira: {
+        num: 623,
+        name: "Golurk",
+        types: [
+            "Steel",
+            "Fire"
+        ],
+        baseStats: {
+            hp: 89,
+            atk: 124,
+            def: 80,
+            spe: 55,
+            spa: 55,
+            spd: 80
+        },
+        abilities: {
+            0: "Water Absorb",
+            H: "Flash Fire"
+        },
+        baseSpecies: "Golurk",
+        eggGroups: [
+            "Mineral"
+        ],
+        weightkg: 330.0
+    },
+    klefkicefira: {
+        num: 707,
+        name: "Klefki",
+        types: [
+            "Ghost",
+            "Fairy"
+        ],
+        baseStats: {
+            hp: 57,
+            atk: 80,
+            def: 91,
+            spe: 75,
+            spa: 90,
+            spd: 107
+        },
+        abilities: {
+            0: "Prankster"
+        },
+        baseSpecies: "Klefki",
+        eggGroups: [
+            "Mineral"
+        ],
+        weightkg: 3.0
+    }
 };

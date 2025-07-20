@@ -30,10 +30,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		inherit: true,
 		isNonstandard: "Past",
 	},
-	belch: {
-		inherit: true,
-		flags: { protect: 1, failmefirst: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failinstruct: 1 },
-	},
 	blizzard: {
 		inherit: true,
 		onModifyMove(move) {
@@ -87,13 +83,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			},
 		},
 	},
-	chatter: {
-		inherit: true,
-		flags: {
-			protect: 1, mirror: 1, sound: 1, distance: 1, bypasssub: 1,
-			noassist: 1, failcopycat: 1, failinstruct: 1, failmefirst: 1, nosleeptalk: 1, failmimic: 1, nosketch: 1,
-		},
-	},
 	copycat: {
 		inherit: true,
 		flags: { failencore: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failinstruct: 1 },
@@ -118,15 +107,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			}
 		},
 		target: "randomNormal",
-	},
-	cut: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	darkvoid: {
-		inherit: true,
-		isNonstandard: "Past",
-		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
 	},
 	doubleironbash: {
 		inherit: true,
@@ -156,35 +136,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	flowershield: {
 		inherit: true,
 		isNonstandard: null,
-	},
-	fly: {
-		inherit: true,
-		onTryMove(attacker, defender, move) {
-			if (attacker.removeVolatile(move.id)) {
-				return;
-			}
-			this.add('-prepare', attacker, move.name);
-			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
-				return;
-			}
-
-			// In SwSh, Fly's animation leaks the initial target through a camera focus
-			// The animation leak target itself isn't "accurate"; the target it reveals is as if Fly weren't a charge movee
-			// (Fly, like all other charge moves, will actually target slots on its charging turn, relevant for things like Follow Me)
-			// We use a generic single-target move to represent this
-			if (this.sides.length > 2) {
-				const animatedTarget = attacker.getMoveTargets(this.dex.getActiveMove('aerialace'), defender).targets[0];
-				if (animatedTarget) {
-					this.hint(`${move.name}'s animation targeted ${animatedTarget.name}`);
-				}
-			}
-			attacker.addVolatile('twoturnmove', defender);
-			return null;
-		},
-	},
-	futuresight: {
-		inherit: true,
-		flags: { metronome: 1, futuremove: 1 },
 	},
 	geargrind: {
 		inherit: true,
@@ -271,10 +222,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	lovelykiss: {
 		inherit: true,
 		isNonstandard: null,
-	},
-	lusterpurge: {
-		inherit: true,
-		basePower: 70,
 	},
 	magiccoat: {
 		inherit: true,
@@ -394,10 +341,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		inherit: true,
 		flags: { failencore: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failinstruct: 1 },
 	},
-	mistball: {
-		inherit: true,
-		basePower: 70,
-	},
 	multiattack: {
 		inherit: true,
 		isNonstandard: null,
@@ -438,10 +381,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	psychoboost: {
 		inherit: true,
 		isNonstandard: "Past",
-	},
-	psychoshift: {
-		inherit: true,
-		isNonstandard: null,
 	},
 	purify: {
 		inherit: true,
@@ -536,10 +475,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			},
 		},
 	},
-	stormthrow: {
-		inherit: true,
-		isNonstandard: null,
-	},
 	submission: {
 		inherit: true,
 		isNonstandard: null,
@@ -547,10 +482,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	tailglow: {
 		inherit: true,
 		isNonstandard: "Past",
-	},
-	technoblast: {
-		inherit: true,
-		isNonstandard: null,
 	},
 	thousandarrows: {
 		inherit: true,
@@ -592,8 +523,629 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			chance: 30,
 		}
 	},
-	strength: {
+	tiroteo: {
 		inherit: true,
-		type: "Fighting",
+		isNonstandard: null,
 	},
+	electrobaba: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fuegolunar: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	rompehielos: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	trinchar: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	desbandada: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fiebreoro: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	maldignicion: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	limpiasuenos: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	alafunesta: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	furiatotemica: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	zarzas: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	sombratela: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	abrazoferoz: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	geoimpacto: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	pipadelapaz: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	borrasca: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	ojosterribles: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	drenanima: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	danzavudu: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	choquevapor: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	patadagelida: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	colmillosalvaje: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	brazomusgo: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	laseresencia: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	caricatura: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	flechastral: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	lingotazo: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	absorbesencia: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fuerzaesencia: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	ferroimpacto: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	cortepetreo: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	snarl: {
+		basePower: 65,
+		type: "Dark",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	assurance: {
+		basePower: 50,
+		type: "Dark",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	darkvoid: {
+		basePower: 0,
+		type: "Dark",
+		category: "Status",
+		accuracy: 80,
+		inherit: true
+	},
+	dracometeor: {
+		basePower: 140,
+		type: "Dragon",
+		category: "Special",
+		accuracy: 90,
+		inherit: true
+	},
+	twister: {
+		basePower: 60,
+		type: "Dragon",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	wildcharge: {
+		basePower: 100,
+		type: "Electric",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	thundershock: {
+		basePower: 45,
+		type: "Electric",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	thunderwave: {
+		basePower: 0,
+		type: "Electric",
+		category: "Status",
+		accuracy: 100,
+		inherit: true
+	},
+	lowsweep: {
+		basePower: 60,
+		type: "Fighting",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	wakeupslap: {
+		basePower: 60,
+		type: "Fighting",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	rocksmash: {
+		basePower: 55,
+		type: "Fighting",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	stormthrow: {
+		basePower: 40,
+		type: "Fighting",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	armthrust: {
+		basePower: 20,
+		type: "Fighting",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	magmastorm: {
+		basePower: 120,
+		type: "Fire",
+		category: "Special",
+		accuracy: 75,
+		inherit: true
+	},
+	firepledge: {
+		basePower: 50,
+		type: "Fire",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	ember: {
+		basePower: 45,
+		type: "Fire",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	skyattack: {
+		basePower: 140,
+		type: "Flying",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	fly: {
+		basePower: 90,
+		type: "Flying",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	airslash: {
+		basePower: 80,
+		type: "Flying",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	chatter: {
+		basePower: 60,
+		type: "Flying",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	solarbeam: {
+		basePower: 130,
+		type: "Grass",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	grasspledge: {
+		basePower: 50,
+		type: "Grass",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	megadrain: {
+		basePower: 55,
+		type: "Grass",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	absorb: {
+		basePower: 30,
+		type: "Grass",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	mudslap: {
+		basePower: 30,
+		type: "Ground",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	powdersnow: {
+		basePower: 50,
+		type: "Ice",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	lastresort: {
+		basePower: 70,
+		type: "Normal",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	technoblast: {
+		basePower: 85,
+		type: "Normal",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	razorwind: {
+		basePower: 130,
+		type: "Normal",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	strength: {
+		basePower: 80,
+		type: "Fighting",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	smellingsalts: {
+		basePower: 60,
+		type: "Normal",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	cut: {
+		basePower: 65,
+		type: "Normal",
+		category: "Physical",
+		accuracy: 95,
+		inherit: true
+	},
+	snore: {
+		basePower: 40,
+		type: "Normal",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	rage: {
+		basePower: 30,
+		type: "Normal",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	rapidspin: {
+		basePower: 60,
+		type: "Normal",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	hiddenpower: {
+		basePower: 0,
+		type: "Normal",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	charm: {
+		basePower: 0,
+		type: "Normal",
+		category: "Status",
+		accuracy: 100,
+		inherit: true
+	},
+	glare: {
+		basePower: 0,
+		type: "Normal",
+		category: "Status",
+		accuracy: 90,
+		inherit: true
+	},
+	roar: {
+		basePower: 0,
+		type: "Normal",
+		category: "Status",
+		accuracy: 100,
+		inherit: true
+	},
+	simplebeam: {
+		basePower: 0,
+		type: "Normal",
+		category: "Status",
+		accuracy: 10,
+		inherit: true
+	},
+	supersonic: {
+		basePower: 0,
+		type: "Normal",
+		category: "Status",
+		accuracy: 75,
+		inherit: true
+	},
+	swagger: {
+		basePower: 0,
+		type: "Normal",
+		category: "Status",
+		accuracy: 90,
+		inherit: true
+	},
+	sweetkiss: {
+		basePower: 0,
+		type: "Normal",
+		category: "Status",
+		accuracy: 75,
+		inherit: true
+	},
+	whirlwind: {
+		basePower: 0,
+		type: "Normal",
+		category: "Status",
+		accuracy: 100,
+		inherit: true
+	},
+	poisonsting: {
+		basePower: 25,
+		type: "Poison",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	poisongas: {
+		basePower: 0,
+		type: "Poison",
+		category: "Status",
+		accuracy: 80,
+		inherit: true
+	},
+	futuresight: {
+		basePower: 130,
+		type: "Psychic",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	zenheadbutt: {
+		basePower: 90,
+		type: "Psychic",
+		category: "Physical",
+		accuracy: 90,
+		inherit: true
+	},
+	lusterpurge: {
+		basePower: 70,
+		type: "Psychic",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	mistball: {
+		basePower: 70,
+		type: "Psychic",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	psywave: {
+		basePower: 0,
+		type: "Psychic",
+		category: "Special",
+		accuracy: 80,
+		inherit: true
+	},
+	storedpower: {
+		basePower: 0,
+		type: "Psychic",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	psychoshift: {
+		basePower: 0,
+		type: "Psychic",
+		category: "Status",
+		accuracy: 90,
+		inherit: true
+	},
+	rockslide: {
+		basePower: 80,
+		type: "Rock",
+		category: "Physical",
+		accuracy: 95,
+		inherit: true
+	},
+	irontail: {
+		basePower: 110,
+		type: "Steel",
+		category: "Physical",
+		accuracy: 85,
+		inherit: true
+	},
+	meteormash: {
+		basePower: 100,
+		type: "Steel",
+		category: "Physical",
+		accuracy: 85,
+		inherit: true
+	},
+	steelwing: {
+		basePower: 90,
+		type: "Steel",
+		category: "Physical",
+		accuracy: 90,
+		inherit: true
+	},
+	metalclaw: {
+		basePower: 60,
+		type: "Steel",
+		category: "Physical",
+		accuracy: 95,
+		inherit: true
+	},
+	aquatail: {
+		basePower: 95,
+		type: "Water",
+		category: "Physical",
+		accuracy: 90,
+		inherit: true
+	},
+	dive: {
+		basePower: 90,
+		type: "Water",
+		category: "Physical",
+		accuracy: 100,
+		inherit: true
+	},
+	waterpledge: {
+		basePower: 50,
+		type: "Water",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	watergun: {
+		basePower: 45,
+		type: "Water",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	clamp: {
+		basePower: 50,
+		type: "Water",
+		category: "Physical",
+		accuracy: 85,
+		inherit: true
+	},
+	soak: {
+		basePower: 0,
+		type: "Water",
+		category: "Status",
+		accuracy: true,
+		inherit: true
+	},
+	belch: {
+		basePower: 130,
+		type: "Poison",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	drainingkiss: {
+		basePower: 60,
+		type: "Fairy",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	fairywind: {
+		basePower: 50,
+		type: "Fairy",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	flyingpress: {
+		basePower: 80,
+		type: "Fighting",
+		category: "Physical",
+		accuracy: 95,
+		inherit: true
+	},
+	freezedry: {
+		basePower: 80,
+		type: "Ice",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	paraboliccharge: {
+		basePower: 70,
+		type: "Electric",
+		category: "Special",
+		accuracy: 100,
+		inherit: true
+	},
+	originpulse: {
+		basePower: 120,
+		type: "Water",
+		category: "Special",
+		accuracy: 85,
+		inherit: true
+	}
 };

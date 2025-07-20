@@ -5644,13 +5644,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -4,
 	},
-	scare: {
+	espanto: {
 		isNonstandard: "Custom",
 		onStart(pokemon) {
 			let activated = false;
 			for (const target of pokemon.adjacentFoes()) {
 				if (!activated) {
-					this.add('-ability', pokemon, 'Scare', 'boost');
+					this.add('-ability', pokemon, 'Espanto', 'boost');
 					activated = true;
 				}
 				if (target.volatiles['substitute']) {
@@ -5661,8 +5661,136 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		flags: {},
-		name: "Scare",
+		name: "Espanto",
 		rating: 3.5,
 		num: -5,
+	},
+	coleoptero: {
+		isNonstandard: "Custom",
+		name: "Cole\u00f3ptero",
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) &&
+				!(move.isZ && move.category !== 'Status') && !(move.name === 'Tera Blast' && pokemon.terastallized)) {
+				move.type = 'Bug';
+				move.typeChangerBoosted = this.effect;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.typeChangerBoosted === this.effect) return this.chainModify([4915, 4096]);
+		},
+		flags: {},
+	},
+	pielhelada: {
+		isNonstandard: "Custom",
+		name: "Piel Helada",
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) &&
+				!(move.isZ && move.category !== 'Status') && !(move.name === 'Tera Blast' && pokemon.terastallized)) {
+				move.type = 'Ice';
+				move.typeChangerBoosted = this.effect;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.typeChangerBoosted === this.effect) return this.chainModify([4915, 4096]);
+		},
+		flags: {},
+	},
+	podersabio: {
+		isNonstandard: "Custom",
+		name: "Poder Sabio",
+		onModifySpAPriority: 5,
+		onModifySpA(atk) {
+			return this.chainModify(2);
+		},
+		flags: {},
+		rating: 5,
+		num: 37,
+	},
+	pielmaldita: {
+		name: "Piel T\u00e9trica",
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) &&
+				!(move.isZ && move.category !== 'Status') && !(move.name === 'Tera Blast' && pokemon.terastallized)) {
+				move.type = 'Ghost';
+				move.typeChangerBoosted = this.effect;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.typeChangerBoosted === this.effect) return this.chainModify([4915, 4096]);
+		},
+		flags: {},
+	},
+	cabezahielo: {
+		isNonstandard: "Custom",
+		name: "Iceberg",
+		onDamage(damage, target, source, effect) {
+			if (effect.id === 'recoil') {
+				if (!this.activeMove) throw new Error("Battle.activeMove is null");
+				if (this.activeMove.id !== 'struggle') return null;
+			}
+		},
+		flags: {},
+	},
+	inflamable: {
+		isNonstandard: "Custom",
+		name: "Inflamable",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				return this.chainModify(1.2);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				return this.chainModify(1.2);
+			}
+		},
+		flags: {},
+	},
+	albinismo: {
+		isNonstandard: "Custom",
+		name: "Albino",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Ice') {
+				return this.chainModify(1.2);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Ice') {
+				return this.chainModify(1.2);
+			}
+		},
+		flags: {},
+	},
+	veranima: {
+		isNonstandard: "Custom",
+		name: "Ver\u00e1nima",
+		onTryHit(target, source, move) {
+			if (target !== source && move.category === 'Special') {
+				move.accuracy = true;
+				this.boost({ spa: 1});
+				this.add('-immune', target, '[from] ability: Ver\u00e1nima');
+				return null;
+			}
+		},
+		flags: { breakable: 1 },
 	}
 };

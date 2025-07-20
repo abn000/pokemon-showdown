@@ -1228,8 +1228,40 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: true,
 		rating: 3,
 	},
-	scare: {
-		inherit: true,
+	coleoptero: {
 		isNonstandard: null,
-	}
+		inherit: true,
+	},
+	pielhelada: {
+		isNonstandard: null,
+		inherit: true,
+	},
+	podersabio: {
+		isNonstandard: null,
+		inherit: true,
+	},
+	pielmaldita: {
+		isNonstandard: null,
+		inherit: true,
+	},
+	espanto: {
+		isNonstandard: null,
+		inherit: true,
+	},
+	cabezahielo: {
+		isNonstandard: null,
+		inherit: true,
+	},
+	inflamable: {
+		isNonstandard: null,
+		inherit: true,
+	},
+	albinismo: {
+		isNonstandard: null,
+		inherit: true,
+	},
+	veranima: {
+		isNonstandard: null,
+		inherit: true,
+	},
 };
