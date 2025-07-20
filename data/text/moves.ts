@@ -7638,18 +7638,18 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Golpea al enemigo y se retira.",
 		shortDesc: "Golpea al enemigo y se retira."
 	},
-	fiebreoro: {
+	fiebredeloro: {
 		name: "Fiebre del Oro",
 		desc: "El usuario entra en un estado de euforia, mejorando su Ataque y su Velocidad espectacularmente.",
 		shortDesc: "El usuario entra en un estado de euforia, mejorando su Ataque y su Velocidad espectacularmente."
 	},
-	maldignición: {
-		name: "Maldignici\u00f3n",
+	maldignicion: {
+		name: "Maldignicion",
 		desc: "Lanza una maldici\u00f3n vengativa al objetivo. Puede causar quemaduras.",
 		shortDesc: "Lanza una maldici\u00f3n vengativa al objetivo. Puede causar quemaduras."
 	},
-	limpiasueños: {
-		name: "Limpia Sue\u00f1os",
+	limpiasuenos: {
+		name: "Limpia Suenos",
 		desc: "Restaura al usuario la mitad del da\u00f1o causado a un objetivo dormido.",
 		shortDesc: "Restaura al usuario la mitad del da\u00f1o causado a un objetivo dormido."
 	},
@@ -7658,8 +7658,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Absorbe la mitad del da\u00f1o producido.",
 		shortDesc: "Absorbe la mitad del da\u00f1o producido."
 	},
-	furiatotémica: {
-		name: "Furia Tot\u00e9mica",
+	furiatotemica: {
+		name: "Furia Totemica",
 		desc: "Invoca la furia de los ancestros para atacar al oponente. Puede quemar, paralizar o congelar.",
 		shortDesc: "Invoca la furia de los ancestros para atacar al oponente. Puede quemar, paralizar o congelar."
 	},
@@ -7699,12 +7699,12 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Lanza una mirada terr\u00f3rifica al oponente, da\u00f1ando su mente y pudiendo paralizarle."
 	},
 	drenanima: {
-		name: "Dren\u00e1nima",
+		name: "Drenanima",
 		desc: "Absorbe la salud del oponente usando una energ\u00eda fantasmag\u00f3rica.",
 		shortDesc: "Absorbe la salud del oponente usando una energ\u00eda fantasmag\u00f3rica."
 	},
 	danzavudu: {
-		name: "Danza Vud\u00fa",
+		name: "Danza Vudu",
 		desc: "Una danza macabara que roba la fuerza del oponente. Puede aumentar el At.Especial del usuario.",
 		shortDesc: "Una danza macabara que roba la fuerza del oponente. Puede aumentar el At.Especial del usuario."
 	},
@@ -7714,7 +7714,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Golpea al objetivo con un pu\u00f1etazo que libera vapor. Reduce la velocidad del usuario."
 	},
 	patadagelida: {
-		name: "Patada G\u00e9lida",
+		name: "Patada Gelida",
 		desc: "Una patada g\u00e9lida que puede congelar al objetivo.",
 		shortDesc: "Una patada g\u00e9lida que puede congelar al objetivo."
 	},
@@ -7729,7 +7729,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Ataca con un pu\u00f1o con ra\u00edces y hiedras que da\u00f1an al objetivo, tambi\u00e9n puede envenenar."
 	},
 	laseresencia: {
-		name: "L\u00e1ser Esencia",
+		name: "Laser Esencia",
 		desc: "Un poderoso l\u00e1ser que utiliza Pok\u00e9sencia como fuente de energ\u00eda.",
 		shortDesc: "Un poderoso l\u00e1ser que utiliza Pok\u00e9sencia como fuente de energ\u00eda."
 	},
@@ -7764,7 +7764,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Ataca con una maza f\u00e9rrea y puede bajar la Defensa del objetivo."
 	},
 	cortepetreo: {
-		name: "Corte P\u00e9treo",
+		name: "Corte Petreo",
 		desc: "Ataca al objetivo con un filo de roca. Suele ser cr\u00edtico.",
 		shortDesc: "Ataca al objetivo con un filo de roca. Suele ser cr\u00edtico."
 	}

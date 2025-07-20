@@ -22303,7 +22303,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 
 	},
-	fiebreoro: {
+	fiebredeloro: {
 		isNonstandard: "Custom",
 		name: "Fiebre del Oro",
 		basePower: 0,
@@ -22323,9 +22323,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "self",
 	},
-	maldignición: {
+	maldignicion: {
 		isNonstandard: "Custom",
-		name: "Maldignición",
+		name: "Maldignicion",
 		basePower: 80,
 		type: "Ghost",
 		category: "Special",
@@ -22343,9 +22343,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "normal",
 	},
-	limpiasueños: {
+	limpiasuenos: {
 		isNonstandard: "Custom",
-		name: "Limpia Sueños",
+		name: "Limpia Suenos",
 		basePower: 120,
 		type: "Fairy",
 		category: "Special",
@@ -22380,9 +22380,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "normal",
 	},
-	furiatotémica: {
+	furiatotemica: {
 		isNonstandard: "Custom",
-		name: "Furia Totémica",
+		name: "Furia Totemica",
 		basePower: 90,
 		type: "Ground",
 		category: "Special",
@@ -22550,7 +22550,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	drenanima: {
 		isNonstandard: "Custom",
-		name: "Dren\u00e1nima",
+		name: "Drenanima",
 		basePower: 80,
 		type: "Ghost",
 		category: "Special",
@@ -22568,7 +22568,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	danzavudu: {
 		isNonstandard: "Custom",
-		name: "Danza Vud\u00fa",
+		name: "Danza Vudu",
 		basePower: 80,
 		type: "Poison",
 		category: "Special",
@@ -22591,7 +22591,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	patadagelida: {
 		isNonstandard: "Custom",
-		name: "Patada G\u00e9lida",
+		name: "Patada Gelida",
 		basePower: 85,
 		type: "Ice",
 		category: "Physical",
@@ -22666,7 +22666,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	laseresencia: {
 		isNonstandard: "Custom",
-		name: "L\u00e1ser Esencia",
+		name: "Laser Esencia",
 		basePower: 150,
 		type: "Normal",
 		category: "Special",
@@ -22794,7 +22794,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	cortepetreo: {
 		isNonstandard: "Custom",
-		name: "Corte P\u00e9treo",
+		name: "Corte Petreo",
 		basePower: 60,
 		type: "Rock",
 		category: "Physical",

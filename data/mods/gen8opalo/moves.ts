@@ -547,7 +547,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	fiebreoro: {
+	fiebredeloro: {
 		inherit: true,
 		isNonstandard: null,
 	},
