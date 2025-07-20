@@ -5599,7 +5599,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		inherit: true,
 		isNonstandard: null
 	},
-	,
 	snampery: {
 		isNonstandard: null,
 		tier: "OU"
