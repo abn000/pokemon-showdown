@@ -12686,5 +12686,166 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			"Field"
 		],
 		weightkg: 34.0
+	},
+	venomoth: {
+		inherit: true,
+		otherFormes: ["Venomoth-Cefira"],
+	},
+	diglett: {
+		inherit: true,
+		otherFormes: ["Diglett-Cefira"]
+	},
+	dugtrio: {
+		inherit: true,
+		otherFormes: ["Dugtrio-Cefira"]
+	},
+	meowth: {
+		inherit: true,
+		otherFormes: ["Meowth-Alola", "Meowth-Galar", "Meowth-Cefira"]
+	},
+	persian: {
+		inherit: true,
+		otherFormes: ["Persian-Alola", "Persian-Cefira"]
+	},
+	farfetchd: {
+		inherit: true,
+		otherFormes: ["Farfetch\u2019d-Galar", "Farfetch\u2019d-Cefira"]
+	},
+	cubone: {
+		inherit: true,
+		otherFormes: ["Cubone-Cefira"]
+	},
+	marowak: {
+		inherit: true,
+		otherFormes: ["Marowak-Alola", "Marowak-Cefira"]
+	},
+	jynx: {
+		inherit: true,
+		otherFormes: ["Jynx-Cefira"]
+	},
+	spinarak: {
+		inherit: true,
+		otherFormes: ["Spinarak-Cefira"]
+	},
+	ariados: {
+		inherit: true,
+		otherFormes: ["Ariados-Cefira"]
+	},
+	teddiursa: {
+		inherit: true,
+		otherFormes: ["Teddiursa-Cefira"]
+	},
+	ursaring: {
+		inherit: true,
+		otherFormes: ["Ursaring-Cefira"]
+	},
+	slugma: {
+		inherit: true,
+		otherFormes: ["Slugma-Cefira"]
+	},
+	magcargo: {
+		inherit: true,
+		otherFormes: ["Magcargo-Cefira"]
+	},
+	delibird: {
+		inherit: true,
+		otherFormes: ["Delibird-Cefira"]
+	},
+	smeargle: {
+		inherit: true,
+		otherFormes: ["Smeargle-Cefira"]
+	},
+	smoochum: {
+		inherit: true,
+		otherFormes: ["Smoochum-Cefira"]
+	},
+	celebi: {
+		inherit: true,
+		otherFormes: ["Celebi-Cefira"]
+	},
+	makuhita: {
+		inherit: true,
+		otherFormes: ["Makuhita-Cefira"]
+	},
+	hariyama: {
+		inherit: true,
+		otherFormes: ["Hariyama-Cefira"]
+	},
+	sableye: {
+		inherit: true,
+		otherFormes: ["Sableye-Cefira"]
+	},
+	numel: {
+		inherit: true,
+		otherFormes: ["Numel-Cefira"]
+	},
+	camerupt: {
+		inherit: true,
+		otherFormes: ["Camerupt-Cefira"]
+	},
+	swablu: {
+		inherit: true,
+		otherFormes: ["Swablu-Cefira"]
+	},
+	altaria: {
+		inherit: true,
+		otherFormes: ["Altaria-Cefira"]
+	},
+	snorunt: {
+		inherit: true,
+		otherFormes: ["Snorunt-Cefira"]
+	},
+	glalie: {
+		inherit: true,
+		otherFormes: ["Glalie-Cefira"]
+	},
+	buneary: {
+		inherit: true,
+		otherFormes: ["Buneary-Cefira"]
+	},
+	lopunny: {
+		inherit: true,
+		otherFormes: ["Lopunny-Cefira"]
+	},
+	snover: {
+		inherit: true,
+		otherFormes: ["Snover-Cefira"]
+	},
+	abomasnow: {
+		inherit: true,
+		otherFormes: ["Abomasnow-Cefira"]
+	},
+	tangrowth: {
+		inherit: true,
+		otherFormes: ["Tangrowth-Cefira"]
+	},
+	froslass: {
+		inherit: true,
+		otherFormes: ["Froslass-Cefira"]
+	},
+	petilil: {
+		inherit: true,
+		otherFormes: ["Petilil-Cefira"]
+	},
+	lilligant: {
+		inherit: true,
+		otherFormes: ["Lilligant-Hisui", "Lilligant-Cefira"]
+	},
+	gothitelle: {
+		inherit: true,
+		otherFormes: ["Gothitelle-Cefira"]
+	},
+	golett: {
+		inherit: true,
+		otherFormes: ["Golett-Cefira"]
+	},
+	golurk: {
+		inherit: true,
+		otherFormes: ["Golurk-Cefira"]
+	},
+	klefki: {
+		inherit: true,
+		otherFormes: ["Klefki-Cefira"]
 	}
+
 };
