@@ -20600,7 +20600,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	venomothcefira: {
         num: 49,
-        name: "Venomoth",
+        name: "Venomoth-Cefira",
         types: [
             "Bug",
             "Ghost"
@@ -20625,7 +20625,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     diglettcefira: {
         num: 50,
-        name: "Diglett",
+        name: "Diglett-Cefira",
         types: [
             "Ground",
             "Flying"
@@ -20650,7 +20650,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     dugtriocefira: {
         num: 51,
-        name: "Dugtrio",
+        name: "Dugtrio-Cefira",
         types: [
             "Ground",
             "Flying"
@@ -20675,7 +20675,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     meowthcefira: {
         num: 52,
-        name: "Meowth",
+        name: "Meowth-Cefira",
         types: [
             "Normal",
             "Fire"
@@ -20700,7 +20700,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     persiancefira: {
         num: 53,
-        name: "Persian",
+        name: "Persian-Cefira",
         types: [
             "Normal",
             "Fire"
@@ -20725,7 +20725,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     farfetchdcefira: {
         num: 83,
-        name: "Farfetch'd",
+        name: "Farfetch'd-Cefira",
         types: [
             "Steel",
             "Flying"
@@ -20752,7 +20752,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     cubonecefira: {
         num: 104,
-        name: "Cubone",
+        name: "Cubone-Cefira",
         types: [
             "Ground",
             "Rock"
@@ -20778,7 +20778,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     marowakcefira: {
         num: 105,
-        name: "Marowak",
+        name: "Marowak-Cefira",
         types: [
             "Ground",
             "Steel"
@@ -20804,7 +20804,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     jynxcefira: {
         num: 124,
-        name: "Jynx",
+        name: "Jynx-Cefira",
         types: [
             "Psychic",
             "Fairy"
@@ -20830,7 +20830,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     spinarakcefira: {
         num: 167,
-        name: "Spinarak",
+        name: "Spinarak-Cefira",
         types: [
             "Bug",
             "Dark"
@@ -20856,7 +20856,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     ariadoscefira: {
         num: 168,
-        name: "Ariados",
+        name: "Ariados-Cefira",
         types: [
             "Bug",
             "Dark"
@@ -20882,7 +20882,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     teddiursacefira: {
         num: 216,
-        name: "Teddiursa",
+        name: "Teddiursa-Cefira",
         types: [
             "Dark"
         ],
@@ -20907,7 +20907,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     ursaringcefira: {
         num: 217,
-        name: "Ursaring",
+        name: "Ursaring-Cefira",
         types: [
             "Dark"
         ],
@@ -20932,7 +20932,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     slugmacefira: {
         num: 218,
-        name: "Slugma",
+        name: "Slugma-Cefira",
         types: [
             "Poison"
         ],
@@ -20956,7 +20956,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     magcargocefira: {
         num: 219,
-        name: "Magcargo",
+        name: "Magcargo-Cefira",
         types: [
             "Poison",
             "Steel"
@@ -20981,7 +20981,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     delibirdcefira: {
         num: 225,
-        name: "Delibird",
+        name: "Delibird-Cefira",
         types: [
             "Dark",
             "Flying"
@@ -21007,7 +21007,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     smearglecefira: {
         num: 235,
-        name: "Smeargle",
+        name: "Smeargle-Cefira",
         types: [
             "Normal",
             "Fighting"
@@ -21032,7 +21032,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     smoochumcefira: {
         num: 238,
-        name: "Smoochum",
+        name: "Smoochum-Cefira",
         types: [
             "Psychic",
             "Fairy"
@@ -21058,7 +21058,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     celebicefira: {
         num: 251,
-        name: "Celebi",
+        name: "Celebi-Cefira",
         types: [
             "Fairy",
             "Ground"
@@ -21082,7 +21082,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     makuhitacefira: {
         num: 296,
-        name: "Makuhita",
+        name: "Makuhita-Cefira",
         types: [
             "Fighting",
             "Psychic"
@@ -21108,7 +21108,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     hariyamacefira: {
         num: 297,
-        name: "Hariyama",
+        name: "Hariyama-Cefira",
         types: [
             "Fighting",
             "Psychic"
@@ -21134,7 +21134,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     sableyecefira: {
         num: 302,
-        name: "Sableye",
+        name: "Sableye-Cefira",
         types: [
             "Dark",
             "Rock"
@@ -21159,7 +21159,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     numelcefira: {
         num: 322,
-        name: "Numel",
+        name: "Numel-Cefira",
         types: [
             "Fire",
             "Water"
@@ -21184,7 +21184,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     cameruptcefira: {
         num: 323,
-        name: "Camerupt",
+        name: "Camerupt-Cefira",
         types: [
             "Fire",
             "Water"
@@ -21210,7 +21210,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     swablucefira: {
         num: 333,
-        name: "Swablu",
+        name: "Swablu-Cefira",
         types: [
             "Electric",
             "Flying"
@@ -21236,7 +21236,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     altariacefira: {
         num: 334,
-        name: "Altaria",
+        name: "Altaria-Cefira",
         types: [
             "Electric",
             "Dragon"
@@ -21262,7 +21262,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     snoruntcefira: {
         num: 361,
-        name: "Snorunt",
+        name: "Snorunt-Cefira",
         types: [
             "Ground"
         ],
@@ -21288,7 +21288,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     glaliecefira: {
         num: 362,
-        name: "Glalie",
+        name: "Glalie-Cefira",
         types: [
             "Ghost",
             "Flying"
@@ -21314,7 +21314,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     bunearycefira: {
         num: 427,
-        name: "Buneary",
+        name: "Buneary-Cefira",
         types: [
             "Ice"
         ],
@@ -21340,7 +21340,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     lopunnycefira: {
         num: 428,
-        name: "Lopunny",
+        name: "Lopunny-Cefira",
         types: [
             "Ice",
             "Fighting"
@@ -21366,7 +21366,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     snovercefira: {
         num: 459,
-        name: "Snover",
+        name: "Snover-Cefira",
         types: [
             "Grass",
             "Water"
@@ -21392,7 +21392,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     abomasnowcefira: {
         num: 460,
-        name: "Abomasnow",
+        name: "Abomasnow-Cefira",
         types: [
             "Grass",
             "Water"
@@ -21418,7 +21418,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     tangrowthcefira: {
         num: 465,
-        name: "Tangrowth",
+        name: "Tangrowth-Cefira",
         types: [
             "Grass",
             "Ground"
@@ -21443,7 +21443,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     froslasscefira: {
         num: 478,
-        name: "Froslass",
+        name: "Froslass-Cefira",
         types: [
             "Ghost",
             "Ground"
@@ -21469,7 +21469,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     petililcefira: {
         num: 548,
-        name: "Petilil",
+        name: "Petilil-Cefira",
         types: [
             "Grass",
             "Poison"
@@ -21495,7 +21495,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     lilligantcefira: {
         num: 549,
-        name: "Lilligant",
+        name: "Lilligant-Cefira",
         types: [
             "Grass",
             "Poison"
@@ -21521,7 +21521,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     gothitellecefira: {
         num: 576,
-        name: "Gothitelle",
+        name: "Gothitelle-Cefira",
         types: [
             "Ghost",
             "Fire"
@@ -21546,7 +21546,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     golettcefira: {
         num: 622,
-        name: "Golett",
+        name: "Golett-Cefira",
         types: [
             "Steel",
             "Fire"
@@ -21571,7 +21571,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     golurkcefira: {
         num: 623,
-        name: "Golurk",
+        name: "Golurk-Cefira",
         types: [
             "Steel",
             "Fire"
@@ -21596,7 +21596,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     klefkicefira: {
         num: 707,
-        name: "Klefki",
+        name: "Klefki-Cefira",
         types: [
             "Ghost",
             "Fairy"

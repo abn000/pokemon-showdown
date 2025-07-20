@@ -12688,162 +12688,202 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	venomoth: {
 		inherit: true,
 		otherFormes: ["Venomoth-Cefira"],
+		isNonstandard: null
 	},
 	diglett: {
 		inherit: true,
-		otherFormes: ["Diglett-Cefira"]
+		otherFormes: ["Diglett-Cefira"],
+		isNonstandard: null
 	},
 	dugtrio: {
 		inherit: true,
-		otherFormes: ["Dugtrio-Cefira"]
+		otherFormes: ["Dugtrio-Cefira"],
+		isNonstandard: null
 	},
 	meowth: {
 		inherit: true,
-		otherFormes: ["Meowth-Alola", "Meowth-Galar", "Meowth-Cefira"]
+		otherFormes: ["Meowth-Alola", "Meowth-Galar", "Meowth-Cefira"],
+		isNonstandard: null
 	},
 	persian: {
 		inherit: true,
-		otherFormes: ["Persian-Alola", "Persian-Cefira"]
+		otherFormes: ["Persian-Alola", "Persian-Cefira"],
+		isNonstandard: null
 	},
 	farfetchd: {
 		inherit: true,
-		otherFormes: ["Farfetch\u2019d-Galar", "Farfetch\u2019d-Cefira"]
+		otherFormes: ["Farfetch\u2019d-Galar", "Farfetch\u2019d-Cefira"],
+		isNonstandard: null
 	},
 	cubone: {
 		inherit: true,
-		otherFormes: ["Cubone-Cefira"]
+		otherFormes: ["Cubone-Cefira"],
+		isNonstandard: null
 	},
 	marowak: {
 		inherit: true,
-		otherFormes: ["Marowak-Alola", "Marowak-Cefira"]
+		otherFormes: ["Marowak-Alola", "Marowak-Cefira"],
+		isNonstandard: null
 	},
 	jynx: {
 		inherit: true,
-		otherFormes: ["Jynx-Cefira"]
+		otherFormes: ["Jynx-Cefira"],
+		isNonstandard: null
 	},
 	spinarak: {
 		inherit: true,
-		otherFormes: ["Spinarak-Cefira"]
+		otherFormes: ["Spinarak-Cefira"],
+		isNonstandard: null
 	},
 	ariados: {
 		inherit: true,
-		otherFormes: ["Ariados-Cefira"]
+		otherFormes: ["Ariados-Cefira"],
+		isNonstandard: null
 	},
 	teddiursa: {
 		inherit: true,
-		otherFormes: ["Teddiursa-Cefira"]
+		otherFormes: ["Teddiursa-Cefira"],
+		isNonstandard: null
 	},
 	ursaring: {
 		inherit: true,
-		otherFormes: ["Ursaring-Cefira"]
+		otherFormes: ["Ursaring-Cefira"],
+		isNonstandard: null
 	},
 	slugma: {
 		inherit: true,
-		otherFormes: ["Slugma-Cefira"]
+		otherFormes: ["Slugma-Cefira"],
+		isNonstandard: null
 	},
 	magcargo: {
 		inherit: true,
-		otherFormes: ["Magcargo-Cefira"]
+		otherFormes: ["Magcargo-Cefira"],
+		isNonstandard: null
 	},
 	delibird: {
 		inherit: true,
-		otherFormes: ["Delibird-Cefira"]
+		otherFormes: ["Delibird-Cefira"],
+		isNonstandard: null
 	},
 	smeargle: {
 		inherit: true,
-		otherFormes: ["Smeargle-Cefira"]
+		otherFormes: ["Smeargle-Cefira"],
+		isNonstandard: null
 	},
 	smoochum: {
 		inherit: true,
-		otherFormes: ["Smoochum-Cefira"]
+		otherFormes: ["Smoochum-Cefira"],
+		isNonstandard: null
 	},
 	celebi: {
 		inherit: true,
-		otherFormes: ["Celebi-Cefira"]
+		otherFormes: ["Celebi-Cefira"],
+		isNonstandard: null
 	},
 	makuhita: {
 		inherit: true,
-		otherFormes: ["Makuhita-Cefira"]
+		otherFormes: ["Makuhita-Cefira"],
+		isNonstandard: null
 	},
 	hariyama: {
 		inherit: true,
-		otherFormes: ["Hariyama-Cefira"]
+		otherFormes: ["Hariyama-Cefira"],
+		isNonstandard: null
 	},
 	sableye: {
 		inherit: true,
-		otherFormes: ["Sableye-Cefira"]
+		otherFormes: ["Sableye-Cefira"],
+		isNonstandard: null
 	},
 	numel: {
 		inherit: true,
-		otherFormes: ["Numel-Cefira"]
+		otherFormes: ["Numel-Cefira"],
+		isNonstandard: null
 	},
 	camerupt: {
 		inherit: true,
-		otherFormes: ["Camerupt-Cefira"]
+		otherFormes: ["Camerupt-Cefira"],
+		isNonstandard: null
 	},
 	swablu: {
 		inherit: true,
-		otherFormes: ["Swablu-Cefira"]
+		otherFormes: ["Swablu-Cefira"],
+		isNonstandard: null
 	},
 	altaria: {
 		inherit: true,
-		otherFormes: ["Altaria-Cefira"]
+		otherFormes: ["Altaria-Cefira"],
+		isNonstandard: null
 	},
 	snorunt: {
 		inherit: true,
-		otherFormes: ["Snorunt-Cefira"]
+		otherFormes: ["Snorunt-Cefira"],
+		isNonstandard: null
 	},
 	glalie: {
 		inherit: true,
-		otherFormes: ["Glalie-Cefira"]
+		otherFormes: ["Glalie-Cefira"],
+		isNonstandard: null
 	},
 	buneary: {
 		inherit: true,
-		otherFormes: ["Buneary-Cefira"]
+		otherFormes: ["Buneary-Cefira"],
+		isNonstandard: null
 	},
 	lopunny: {
 		inherit: true,
-		otherFormes: ["Lopunny-Cefira"]
+		otherFormes: ["Lopunny-Cefira"],
+		isNonstandard: null
 	},
 	snover: {
 		inherit: true,
-		otherFormes: ["Snover-Cefira"]
+		otherFormes: ["Snover-Cefira"],
+		isNonstandard: null
 	},
 	abomasnow: {
 		inherit: true,
-		otherFormes: ["Abomasnow-Cefira"]
+		otherFormes: ["Abomasnow-Cefira"],
+		isNonstandard: null
 	},
 	tangrowth: {
 		inherit: true,
-		otherFormes: ["Tangrowth-Cefira"]
+		otherFormes: ["Tangrowth-Cefira"],
+		isNonstandard: null
 	},
 	froslass: {
 		inherit: true,
-		otherFormes: ["Froslass-Cefira"]
+		otherFormes: ["Froslass-Cefira"],
+		isNonstandard: null
 	},
 	petilil: {
 		inherit: true,
-		otherFormes: ["Petilil-Cefira"]
+		otherFormes: ["Petilil-Cefira"],
+		isNonstandard: null
 	},
 	lilligant: {
 		inherit: true,
-		otherFormes: ["Lilligant-Hisui", "Lilligant-Cefira"]
+		otherFormes: ["Lilligant-Hisui", "Lilligant-Cefira"],
+		isNonstandard: null
 	},
 	gothitelle: {
 		inherit: true,
-		otherFormes: ["Gothitelle-Cefira"]
+		otherFormes: ["Gothitelle-Cefira"],
+		isNonstandard: null
 	},
 	golett: {
 		inherit: true,
-		otherFormes: ["Golett-Cefira"]
+		otherFormes: ["Golett-Cefira"],
+		isNonstandard: null
 	},
 	golurk: {
 		inherit: true,
-		otherFormes: ["Golurk-Cefira"]
+		otherFormes: ["Golurk-Cefira"],
+		isNonstandard: null
 	},
 	klefki: {
 		inherit: true,
-		otherFormes: ["Klefki-Cefira"]
+		otherFormes: ["Klefki-Cefira"],
+		isNonstandard: null
 	}
 
 };
