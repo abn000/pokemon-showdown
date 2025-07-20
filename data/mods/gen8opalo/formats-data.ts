@@ -3891,7 +3891,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		natDexTier: "Uber",
 	},
 	xerneasneutral: {
-		isNonstandard: "Custom", // can't be used in battle
+		isNonstandard: null, // can't be used in battle
 		tier: "Illegal",
 	},
 	yveltal: {
@@ -5084,7 +5084,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "Illegal",
 	},
 	missingno: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	syclar: {
@@ -5364,79 +5364,79 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "CAP",
 	},
 	pokestarsmeargle: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarufo: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarufo2: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarbrycenman: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarmt: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarmt2: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestartransport: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestargiant: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestargiant2: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarhumanoid: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarmonster: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarf00: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarf002: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarspirit: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarblackdoor: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarwhitedoor: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarblackbelt: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestargiantpropo2: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	pokestarufopropu2: {
-		isNonstandard: "Custom",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	venomoth: {
@@ -5598,5 +5598,98 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	klefki: {
 		inherit: true,
 		isNonstandard: null
+	},
+	,
+	snampery: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	descargot: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	gastesla: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	flasinge: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	shaboon: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	lunaye: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	swolphin: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	norspear: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	narvalor: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	cefireon: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	mossfoot: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	astrem: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	zippectre: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	soundow: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	unktena: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	fungorse: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	cervantrier: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	lugnis: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	luravit: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	luxpiravit: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	quisquite: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	gambarrel: {
+		isNonstandard: null,
+		tier: "OU"
+	},
+	bogaleon: {
+		isNonstandard: null,
+		tier: "OU"
 	},
 };
