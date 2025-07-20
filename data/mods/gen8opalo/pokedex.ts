@@ -1855,7 +1855,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			H: "Technician"
 		},
 		inherit: true,
-		baseSpecies: "Mr. mime",
+		baseSpecies: "Mr. Mime",
 		eggGroups: [
 			"Humanlike"
 		],
@@ -5579,7 +5579,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			H: "Technician"
 		},
 		inherit: true,
-		baseSpecies: "Mime jr.",
+		baseSpecies: "Mime Jr.",
 		eggGroups: [
 			"Undiscovered"
 		],
@@ -10031,7 +10031,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			0: "Battle Armor"
 		},
 		inherit: true,
-		baseSpecies: "C\u00f3digo cero",
+		baseSpecies: "Type: Null",
 		eggGroups: [
 			"Undiscovered"
 		],
@@ -10260,7 +10260,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			H: "Telepathy"
 		},
 		inherit: true,
-		baseSpecies: "Tapu koko",
+		baseSpecies: "Tapu Koko",
 		eggGroups: [
 			"Undiscovered"
 		],
@@ -10286,7 +10286,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			H: "Telepathy"
 		},
 		inherit: true,
-		baseSpecies: "Tapu lele",
+		baseSpecies: "Tapu Lele",
 		eggGroups: [
 			"Undiscovered"
 		],
@@ -10312,7 +10312,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			H: "Telepathy"
 		},
 		inherit: true,
-		baseSpecies: "Tapu bulu",
+		baseSpecies: "Tapu Bulu",
 		eggGroups: [
 			"Undiscovered"
 		],
@@ -10338,7 +10338,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			H: "Telepathy"
 		},
 		inherit: true,
-		baseSpecies: "Tapu fini",
+		baseSpecies: "Tapu Fini",
 		eggGroups: [
 			"Undiscovered"
 		],
@@ -12025,7 +12025,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			H: "Ice Body"
 		},
 		inherit: true,
-		baseSpecies: "Mr. rime",
+		baseSpecies: "Mr. Rime",
 		eggGroups: [
 			"Humanlike"
 		],
@@ -12051,7 +12051,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			H: "Scrappy"
 		},
 		inherit: true,
-		baseSpecies: "Sirfetch'd",
+		baseSpecies: "Sirfetch\u2019d",
 		eggGroups: [
 			"Flying",
 			"Field"
