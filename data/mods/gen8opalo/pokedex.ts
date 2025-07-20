@@ -501,7 +501,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	nidoranf: {
 		num: 29,
-		name: "Nidoran",
+		name: "Nidoran-F",
 		types: [
 			"Poison"
 		],
@@ -519,7 +519,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			H: "Hustle"
 		},
 		inherit: true,
-		baseSpecies: "Nidoran",
 		eggGroups: [
 			"Monster",
 			"Field"
@@ -556,7 +555,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	nidoranm: {
 		num: 32,
-		name: "Nidoran",
+		name: "Nidoran-M",
 		types: [
 			"Poison"
 		],
@@ -574,7 +573,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 			H: "Hustle"
 		},
 		inherit: true,
-		baseSpecies: "Nidoran",
 		eggGroups: [
 			"Monster",
 			"Field"
