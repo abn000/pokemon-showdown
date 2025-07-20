@@ -435,10 +435,6 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
-	persiancefira:{
-		isNonstandard: "Custom",
-		tier: "Illegal",
-	},
 	perrserker: {
 		tier: "ZU",
 		doublesTier: "(DUU)",
@@ -1283,10 +1279,6 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "ZU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
-	},
-	ariadoscefira: {
-		tier: "Illegal",
-		isNonstandard: "Custom",
 	},
 	chinchou: {
 		tier: "LC",
@@ -6056,12 +6048,256 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	venomothcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    diglettcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    dugtriocefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    meowthcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    persiancefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    farfetchdcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    cubonecefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    marowakcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    jynxcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    spinarakcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    ariadoscefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    teddiursacefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    ursaringcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    slugmacefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+	},
+    magcargocefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    delibirdcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    smearglecefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    smoochumcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    celebicefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+	},
+    makuhitacefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    hariyamacefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    sableyecefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    numelcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    cameruptcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    swablucefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    altariacefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    snoruntcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    glaliecefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    bunearycefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    lopunnycefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    snovercefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    abomasnowcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    tangrowthcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    froslasscefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    petililcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    lilligantcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    gothitellecefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    golettcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    golurkcefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+    },
+    klefkicefira: {
+        isNonstandard: "Custom",
+		tier: "OU"
+	},
+	snampery: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
 	descargot: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "OU"
+	},
+	gastesla: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	flasinge: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	shaboon: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	lunaye: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	swolphin: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	norspear: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	narvalor: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	cefireon: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	mossfoot: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	astrem: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	zippectre: {
+		isNonstandard: "Custom",
+		tier: "OU"
 	},
 	soundow: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
-	}
+		tier: "OU"
+	},
+	unktena: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	fungorse: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	cervantrier: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	lugnis: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	luravit: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	luxpiravit: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	quisquite: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	gambarrel: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
+	bogaleon: {
+		isNonstandard: "Custom",
+		tier: "OU"
+	},
 };
