@@ -19845,6 +19845,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		gen: 5,
 	},
 	snampery: {
+		gen: 8,
 		num: 795,
 		name: "Snampery",
 		types: [
@@ -19874,6 +19875,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	descargot: {
+		gen: 8,
 		num: 796,
 		name: "Descargot",
 		types: [
@@ -19904,6 +19906,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	gastesla: {
+		gen: 8,
 		num: 797,
 		name: "Gastesla",
 		types: [
@@ -19932,6 +19935,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	flasinge: {
+		gen: 8,
 		num: 798,
 		name: "Flasinge",
 		types: [
@@ -19961,6 +19965,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	shaboon: {
+		gen: 8,
 		num: 799,
 		name: "Shaboon",
 		types: [
@@ -19991,6 +19996,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom",
 	},
 	lunaye: {
+		gen: 8,
 		num: 800,
 		name: "Lunaye",
 		types: [
@@ -20019,6 +20025,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	swolphin: {
+		gen: 8,
 		num: 801,
 		name: "Swolphin",
 		types: [
@@ -20049,6 +20056,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	norspear: {
+		gen: 8,
 		num: 802,
 		name: "Norspear",
 		types: [
@@ -20080,6 +20088,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	narvalor: {
+		gen: 8,
 		num: 803,
 		name: "Narvalor",
 		types: [
@@ -20109,6 +20118,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	cefireon: {
+		gen: 8,
 		num: 807,
 		name: "Cefireon",
 		types: [
@@ -20136,6 +20146,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	lupice: {
+		gen: 8,
 		num: 889,
 		name: "Lupice",
 		types: [
@@ -20165,6 +20176,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	mossfoot: {
+		gen: 8,
 		num: 890,
 		name: "Mossfoot",
 		types: [
@@ -20194,6 +20206,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	astrem: {
+		gen: 8,
 		num: 891,
 		name: "Astrem",
 		types: [
@@ -20221,6 +20234,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	maidible: {
+		gen: 8,
 		num: 892,
 		name: "Maidible",
 		types: [
@@ -20251,6 +20265,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	zippectre: {
+		gen: 8,
 		num: 893,
 		name: "Zippectre",
 		types: [
@@ -20279,6 +20294,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	soundow: {
+		gen: 8,
 		num: 894,
 		name: "Soundow",
 		types: [
@@ -20308,6 +20324,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	unktena: {
+		gen: 8,
 		num: 906,
 		name: "Unktena",
 		types: [
@@ -20335,6 +20352,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	polekin: {
+		gen: 8,
 		num: 907,
 		name: "Polekin",
 		types: [
@@ -20364,6 +20382,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	fungorse: {
+		gen: 8,
 		num: 908,
 		name: "Fungorse",
 		types: [
@@ -20394,6 +20413,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	cervantrier: {
+		gen: 8,
 		num: 909,
 		name: "Cervantrier",
 		types: [
@@ -20422,6 +20442,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	lugnis: {
+		gen: 8,
 		num: 910,
 		name: "Lugnis",
 		types: [
@@ -20451,6 +20472,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	luravit: {
+		gen: 8,
 		num: 911,
 		name: "Luravit",
 		types: [
@@ -20480,6 +20502,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	luxpiravit: {
+		gen: 8,
 		num: 912,
 		name: "Luxpiravit",
 		types: [
@@ -20508,6 +20531,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	quisquite: {
+		gen: 8,
 		num: 913,
 		name: "Quisquite",
 		types: [
@@ -20539,6 +20563,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	gambarrel: {
+		gen: 8,
 		num: 914,
 		name: "Gambarrel",
 		types: [
@@ -20570,6 +20595,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		isNonstandard: "Custom"
 	},
 	bogaleon: {
+		gen: 8,
 		num: 915,
 		name: "Bogaleon",
 		types: [
