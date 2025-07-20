@@ -7611,27 +7611,27 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	tiroteo: {
 		name: "Tiroteo",
 		desc: "Dispara una salva de proyectiles de 2 a 5 veces.",
-		shortDesc: "Dispara una salva de proyectiles de 2 a 5 veces."
+		shortDesc: "Golpea de 2 a 5 veces."
 	},
 	electrobaba: {
 		name: "Electrobaba",
 		desc: "Lanza una baba electrizante que tambi\u00e9n reduce la Velocidad.",
-		shortDesc: "Lanza una baba electrizante que tambi\u00e9n reduce la Velocidad."
+		shortDesc: "Reduce la velocidad."
 	},
 	fuegolunar: {
 		name: "Fuego Lunar",
 		desc: "Una descarga de fuego m\u00e1gico que puede bajar la Defensa Especial del objetivo.",
-		shortDesc: "Una descarga de fuego m\u00e1gico que puede bajar la Defensa Especial del objetivo."
+		shortDesc: "20% de bajar la Defensa Especial."
 	},
 	rompehielos: {
 		name: "Rompehielos",
 		desc: "Ataca rodeado de hielo y esquirlas en una potente embestida que tambi\u00e9n da\u00f1a al usuario.",
-		shortDesc: "Ataca rodeado de hielo y esquirlas en una potente embestida que tambi\u00e9n da\u00f1a al usuario."
+		shortDesc: "Tambi\u00e9n da\u00f1a al usuario."
 	},
 	trinchar: {
 		name: "Trinchar",
 		desc: "Una triple estocada al rival que golpea 3 veces con potencia ascendente.",
-		shortDesc: "Una triple estocada al rival que golpea 3 veces con potencia ascendente."
+		shortDesc: "Golpea 3 veces con potencia ascendente."
 	},
 	desbandada: {
 		name: "Desbandada",
@@ -7641,17 +7641,17 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	fiebredeloro: {
 		name: "Fiebre del Oro",
 		desc: "El usuario entra en un estado de euforia, mejorando su Ataque y su Velocidad espectacularmente.",
-		shortDesc: "El usuario entra en un estado de euforia, mejorando su Ataque y su Velocidad espectacularmente."
+		shortDesc: "Sube muchísimo el Ataque y la Velocidad."
 	},
 	maldignicion: {
 		name: "Maldignicion",
 		desc: "Lanza una maldici\u00f3n vengativa al objetivo. Puede causar quemaduras.",
-		shortDesc: "Lanza una maldici\u00f3n vengativa al objetivo. Puede causar quemaduras."
+		shortDesc: "30% de causar quemaduras."
 	},
 	limpiasuenos: {
 		name: "Limpia Suenos",
 		desc: "Restaura al usuario la mitad del da\u00f1o causado a un objetivo dormido.",
-		shortDesc: "Restaura al usuario la mitad del da\u00f1o causado a un objetivo dormido."
+		shortDesc: "Restaura la mitad de da\u00f1o causado a un objetivo dormido."
 	},
 	alafunesta: {
 		name: "Ala Funesta",
@@ -7661,111 +7661,111 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	furiatotemica: {
 		name: "Furia Totemica",
 		desc: "Invoca la furia de los ancestros para atacar al oponente. Puede quemar, paralizar o congelar.",
-		shortDesc: "Invoca la furia de los ancestros para atacar al oponente. Puede quemar, paralizar o congelar."
+		shortDesc: "30% de quemar, paralizar o congelar."
 	},
 	zarzas: {
 		name: "Zarzas",
 		desc: "Ataca al oponente con unas zarzas que le van haciendo da\u00f1o al final de cada turno.",
-		shortDesc: "Ataca al oponente con unas zarzas que le van haciendo da\u00f1o al final de cada turno."
+		shortDesc: "Atrapa al oponente."
 	},
 	sombratela: {
 		name: "Sombratela",
 		desc: "Lanza un hilo de seda sombr\u00edo al objetivo, da\u00f1\u00e1ndole y reduciendo su velocidad.",
-		shortDesc: "Lanza un hilo de seda sombr\u00edo al objetivo, da\u00f1\u00e1ndole y reduciendo su velocidad."
+		shortDesc: "Reduce la velocidad."
 	},
 	abrazoferoz: {
 		name: "Abrazo Feroz",
 		desc: "Un abrazo brutal que puede paralizar al oponente y hacerle retroceder.",
-		shortDesc: "Un abrazo brutal que puede paralizar al oponente y hacerle retroceder."
+		shortDesc: "30% de paralizar o retroceder."
 	},
 	geoimpacto: {
 		name: "Geoimpacto",
 		desc: "Ataca con toda la furia del planeta. Reduce mucho el Ataque Especial del usuario.",
-		shortDesc: "Ataca con toda la furia del planeta. Reduce mucho el Ataque Especial del usuario."
+		shortDesc: "Reduce mucho el Ataque Especial del usuario."
 	},
 	pipadelapaz: {
 		name: "Pipa de la Paz",
 		desc: "Golpea al objetivo con un humo on\u00edrico y lo amansa, pudiendo reducir su Ataque.",
-		shortDesc: "Golpea al objetivo con un humo on\u00edrico y lo amansa, pudiendo reducir su Ataque."
+		shortDesc: "30% de reducir el Ataque."
 	},
 	borrasca: {
 		name: "Borrasca",
 		desc: "Desata una tormenta de lluvia y rel\u00e1mpagos que puede confundir al oponente.",
-		shortDesc: "Desata una tormenta de lluvia y rel\u00e1mpagos que puede confundir al oponente."
+		shortDesc: "30% de confundir."
 	},
 	ojosterribles: {
 		name: "Ojos Terribles",
 		desc: "Lanza una mirada terr\u00f3rifica al oponente, da\u00f1ando su mente y pudiendo paralizarle.",
-		shortDesc: "Lanza una mirada terr\u00f3rifica al oponente, da\u00f1ando su mente y pudiendo paralizarle."
+		shortDesc: "30% de paralizar."
 	},
 	drenanima: {
 		name: "Drenanima",
 		desc: "Absorbe la salud del oponente usando una energ\u00eda fantasmag\u00f3rica.",
-		shortDesc: "Absorbe la salud del oponente usando una energ\u00eda fantasmag\u00f3rica."
+		shortDesc: "Restaura la mitad del da\u00f1o causado."
 	},
 	danzavudu: {
 		name: "Danza Vudu",
 		desc: "Una danza macabara que roba la fuerza del oponente. Puede aumentar el At.Especial del usuario.",
-		shortDesc: "Una danza macabara que roba la fuerza del oponente. Puede aumentar el At.Especial del usuario."
+		shortDesc: "30% de aumentar el At.Especial del usuario."
 	},
 	choquevapor: {
 		name: "Choque Vapor",
 		desc: "Golpea al objetivo con un pu\u00f1etazo que libera vapor. Reduce la velocidad del usuario.",
-		shortDesc: "Golpea al objetivo con un pu\u00f1etazo que libera vapor. Reduce la velocidad del usuario."
+		shortDesc: "Reduce la velocidad del usuario."
 	},
 	patadagelida: {
 		name: "Patada Gelida",
 		desc: "Una patada g\u00e9lida que puede congelar al objetivo.",
-		shortDesc: "Una patada g\u00e9lida que puede congelar al objetivo."
+		shortDesc: "10% de congelar."
 	},
 	colmillosalvaje: {
-		name: "Colm. Salvaje",
+		name: "Colmillo Salvaje",
 		desc: "Un potente colmillo de fuerza elemental. Puede quemar, paralizar o congelar.",
-		shortDesc: "Un potente colmillo de fuerza elemental. Puede quemar, paralizar o congelar."
+		shortDesc: "30% de quemar, paralizar o congelar."
 	},
 	brazomusgo: {
 		name: "Brazo Musgo",
 		desc: "Ataca con un pu\u00f1o con ra\u00edces y hiedras que da\u00f1an al objetivo, tambi\u00e9n puede envenenar.",
-		shortDesc: "Ataca con un pu\u00f1o con ra\u00edces y hiedras que da\u00f1an al objetivo, tambi\u00e9n puede envenenar."
+		shortDesc: "50% de envenenar."
 	},
 	laseresencia: {
 		name: "Laser Esencia",
 		desc: "Un poderoso l\u00e1ser que utiliza Pok\u00e9sencia como fuente de energ\u00eda.",
-		shortDesc: "Un poderoso l\u00e1ser que utiliza Pok\u00e9sencia como fuente de energ\u00eda."
+		shortDesc: "Causa da\u00f1o."
 	},
 	caricatura: {
 		name: "Caricatura",
 		desc: "Transforma al oponente en una caricatura de s\u00ed mismo, haci\u00e9ndole da\u00f1o emocional y caus\u00e1ndole confusi\u00f3n.",
-		shortDesc: "Transforma al oponente en una caricatura de s\u00ed mismo, haci\u00e9ndole da\u00f1o emocional y caus\u00e1ndole confusi\u00f3n."
+		shortDesc: "Causa confusi\u00f3n."
 	},
 	flechastral: {
 		name: "Flecha Astral",
 		desc: "Dispara de 2 a 5 flechas m\u00e1gicas al oponente.",
-		shortDesc: "Dispara de 2 a 5 flechas m\u00e1gicas al oponente."
+		shortDesc: "Golpea de 2 a 5 veces."
 	},
 	lingotazo: {
 		name: "Lingotazo",
 		desc: "Aplasta al objetivo con un lingote de oro gigante. Puede paralizar.",
-		shortDesc: "Aplasta al objetivo con un lingote de oro gigante. Puede paralizar."
+		shortDesc: "30% de paralizar."
 	},
 	absorbesencia: {
 		name: "Absorbesencia",
 		desc: "Drena la energ\u00eda vital del enemigo.",
-		shortDesc: "Drena la energ\u00eda vital del enemigo."
+		shortDesc: "Drena la mitad del da\u00f1o."
 	},
 	fuerzaesencia: {
 		name: "Fuerzaesencia",
 		desc: "Concentra el poder de Pok\u00e9mon ancestrales en un rayo de luz.",
-		shortDesc: "Concentra el poder de Pok\u00e9mon ancestrales en un rayo de luz."
+		shortDesc: "Causa daño."
 	},
 	ferroimpacto: {
 		name: "Ferroimpacto",
 		desc: "Ataca con una maza f\u00e9rrea y puede bajar la Defensa del objetivo.",
-		shortDesc: "Ataca con una maza f\u00e9rrea y puede bajar la Defensa del objetivo."
+		shortDesc: "30% de bajar la Defensa."
 	},
 	cortepetreo: {
 		name: "Corte Petreo",
 		desc: "Ataca al objetivo con un filo de roca. Suele ser cr\u00edtico.",
-		shortDesc: "Ataca al objetivo con un filo de roca. Suele ser cr\u00edtico."
+		shortDesc: "Suele ser cr\u00edtico."
 	}
 };

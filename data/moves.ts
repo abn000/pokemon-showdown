@@ -22613,7 +22613,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	colmillosalvaje: {
 		isNonstandard: "Custom",
-		name: "Colm. Salvaje",
+		name: "Colmillo Salvaje",
 		basePower: 90,
 		type: "Normal",
 		category: "Physical",
