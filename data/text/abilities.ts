@@ -2296,8 +2296,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "Aumenta la potencia de los mov. especiales.",
 		shortDesc: "Aumenta la potencia de los mov. especiales."
 	},
-	pielmaldita: {
-		name: "Piel T\u00e9trica",
+	pieltetrica: {
+		name: "Piel Tetrica",
 		desc: "Convierte los movimientos de tipo Normal en Fantasma y los potencia.",
 		shortDesc: "Convierte los movimientos de tipo Normal en Fantasma y los potencia."
 	},
@@ -2306,7 +2306,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "Espanta al rival y reduce su Atq.Especial.",
 		shortDesc: "Espanta al rival y reduce su Atq.Especial."
 	},
-	cabezahielo: {
+	iceberg: {
 		name: "Iceberg",
 		desc: "No recibe da\u00f1o de retroceso.",
 		shortDesc: "No recibe da\u00f1o de retroceso."
@@ -2316,7 +2316,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "Aumenta el da\u00f1o de los ataques de tipo Fuego.",
 		shortDesc: "Aumenta el da\u00f1o de los ataques de tipo Fuego."
 	},
-	albinismo: {
+	albino: {
 		name: "Albino",
 		desc: "Aumenta el da\u00f1o de los ataques de tipo Hielo.",
 		shortDesc: "Aumenta el da\u00f1o de los ataques de tipo Hielo."

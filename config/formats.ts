@@ -4797,5 +4797,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: "gen8opalo",
 		searchShow: true,
 		ruleset: [ "Team Preview", "Cancel Mod" ],
+		debug: true
 	},
 ];

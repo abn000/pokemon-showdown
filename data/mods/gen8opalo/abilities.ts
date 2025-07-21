@@ -1240,7 +1240,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		isNonstandard: null,
 		inherit: true,
 	},
-	pielmaldita: {
+	pieltetrica: {
 		isNonstandard: null,
 		inherit: true,
 	},
@@ -1248,7 +1248,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		isNonstandard: null,
 		inherit: true,
 	},
-	cabezahielo: {
+	iceberg: {
 		isNonstandard: null,
 		inherit: true,
 	},
@@ -1256,7 +1256,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		isNonstandard: null,
 		inherit: true,
 	},
-	albinismo: {
+	albino: {
 		isNonstandard: null,
 		inherit: true,
 	},

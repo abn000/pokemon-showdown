@@ -5716,8 +5716,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 5,
 		num: 37,
 	},
-	pielmaldita: {
-		name: "Piel T\u00e9trica",
+	pieltetrica: {
+		name: "Piel Tetrica",
 		onModifyTypePriority: -1,
 		onModifyType(move, pokemon) {
 			const noModifyType = [
@@ -5735,7 +5735,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		flags: {},
 	},
-	cabezahielo: {
+	iceberg: {
 		isNonstandard: "Custom",
 		name: "Iceberg",
 		onDamage(damage, target, source, effect) {
@@ -5763,7 +5763,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		flags: {},
 	},
-	albinismo: {
+	albino: {
 		isNonstandard: "Custom",
 		name: "Albino",
 		onModifyAtkPriority: 5,
@@ -5782,7 +5782,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	veranima: {
 		isNonstandard: "Custom",
-		name: "Ver\u00e1nima",
+		name: "Veranima",
 		onTryHit(target, source, move) {
 			if (target !== source && move.category === 'Special') {
 				move.accuracy = true;
